@@ -1,0 +1,152 @@
+import React from 'react'
+import leftArrow from '../Assets/leftArrow.svg'
+import '../Styles/process.scss'
+import star from '../Assets/star.svg'
+import wing from '../Assets/wing.svg'
+import ladylaptop from '../Assets/laptop-lady.svg'
+import process1 from '../Assets/process1.svg'
+import process2 from '../Assets/process2.svg'
+
+const Process = () => {
+  return (
+    <>
+      <span className='text-3xl font-bold m-14'>Process</span>
+      <div className='pt-10 pb-2 ml-14 mt-5 grid grid-cols-2 gap-4 text-[#090809] processWrapper relative'>
+        <div className='textWrapper'>
+          <span>
+            Step{' '}
+            <span
+              style={{
+                padding: '.5rem 1rem',
+                backgroundColor: '#ffffff',
+                borderRadius: '100%',
+              }}
+            >
+              1
+            </span>
+          </span>
+          <span className='text-3xl font-bold mt-4 mb-4'>
+            Take an assessment with us
+          </span>
+          <span>Take an assessment with us</span>
+        </div>
+        <div className='start col-span-2'>
+          <div className='imageWrapper'>
+            <img src={leftArrow} alt='' />
+          </div>
+          <div>START</div>
+        </div>
+        <img src={ladylaptop} alt='' className='absolute right-[-2rem]' />
+        <img src={wing} alt='' className='absolute right-[20%] top-[0rem] ' />
+      </div>
+      <div className='pt-10 pb-2 ml-14 mt-5 grid grid-cols-2 gap-4 text-[#090809] step-two'>
+        <div className='textWrapper'>
+          <span>
+            Step{' '}
+            <span
+              style={{
+                padding: '.5rem 1rem',
+                backgroundColor: '#ffffff',
+                borderRadius: '100%',
+              }}
+            >
+              2
+            </span>
+          </span>
+          <span className='text-3xl  mt-4 mb-4'>
+            Join our exclusive cohorts and supercharge your{' '}
+            <span className='text-3xl font-bold mt-4 mb-4'>
+              career in less than 10 weeks.
+            </span>
+          </span>
+          <div className='grid grid-cols-2 gap-20 text-[#090809]'>
+            <div className='step-two-steps p-6 relative'>
+              <img
+                src={process1}
+                alt=''
+                className='absolute right-[-4rem] bottom-[-0rem]'
+              />
+              <span className='text-2xl font-bold'>On-Demand Cohorts</span>
+              <div className='textWrapper mt-2'>
+                <div className='flex justify-start items-center my-2'>
+                  <div className='mr-2'>
+                    <img src={star} alt='' />
+                  </div>
+                  <span className='text-base'>UX/UI</span>
+                </div>
+                <div className='flex justify-start items-center  my-2'>
+                  <div className='mr-2'>
+                    <img src={star} alt='' />
+                  </div>
+                  <span className='text-base'>Blockchain</span>
+                </div>
+                <div className='flex justify-start items-center  my-2'>
+                  <div className='mr-2'>
+                    <img src={star} alt='' />
+                  </div>
+                  <span className='text-base'>Sales</span>
+                </div>
+                <div className='flex justify-start items-center  my-2'>
+                  <div className='mr-2'>
+                    <img src={star} alt='' />
+                  </div>
+                  <span className='text-base'>Devops and more!</span>
+                </div>
+              </div>
+              <div className='explore'>
+                <div className='imageWrapper'>
+                  <img src={leftArrow} alt='' />
+                </div>
+                <div>Explore</div>
+              </div>
+            </div>
+            <div className='step-two-steps p-6 relative'>
+              <img
+                src={process2}
+                alt=''
+                className='absolute right-[-6rem] bottom-[-0rem]'
+              />
+              <span className='text-2xl font-bold'>
+                Job Assured Industry Mentorship Program
+              </span>
+              <div className='textWrapper mt-2'>
+                <div className='flex justify-start items-center my-2'>
+                  <div className='mr-2'>
+                    <img src={star} alt='' />
+                  </div>
+                  <span className='text-base'>Software Development</span>
+                </div>
+                <div className='flex justify-start items-center  my-2'>
+                  <div className='mr-2'>
+                    <img src={star} alt='' />
+                  </div>
+                  <span className='text-base'>VLSI and Embedded Systems</span>
+                </div>
+                <div className='flex justify-start items-center  my-2'>
+                  <div className='mr-2'>
+                    <img src={star} alt='' />
+                  </div>
+                  <span className='text-base'>Core Civil </span>
+                </div>
+                <div className='flex justify-start items-center  my-2'>
+                  <div className='mr-2'>
+                    <img src={star} alt='' />
+                  </div>
+                  <span className='text-base'>Management</span>
+                </div>
+              </div>
+              <div className='explore'>
+                <div className='imageWrapper'>
+                  <img src={leftArrow} alt='' />
+                </div>
+                <div>Explore</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  )
+}
+
+export default Process
