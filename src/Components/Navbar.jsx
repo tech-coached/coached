@@ -12,23 +12,25 @@ const Navbar = () => {
           <img src={logo} alt='' />
         </Link>
       </div>
-      <div className='cursor-pointer hover:font-bold'>
-        {' '}
-        <Link to='/'>Home</Link>
-      </div>
-      <div className='cursor-pointer'>
-        <Link to='/company'>Company</Link>
-      </div>
-      <div className='cursor-pointer'>
-        <Link to='/student'>Student</Link>
-      </div>
-      <div className='cursor-pointer'>Mentors</div>
-      <div className='cursor-pointer '>About Us</div>
-      <div className='login col-span-2'>
-        <div className='imageWrapper'>
-          <img src={leftArrow} alt='' />
+      <div className='flex justify-center items-center col-span-7 grid grid-cols-12 gap-4'>
+        <div className='cursor-pointer hover:font-bold'>
+          {' '}
+          <Link to='/'>Home</Link>
         </div>
-        <div>Login</div>
+        <div className='cursor-pointer'>
+          <Link to='/company'>Company</Link>
+        </div>
+        <div className='cursor-pointer'>
+          <Link to='/student'>Student</Link>
+        </div>
+        <div className='cursor-pointer'>Mentors</div>
+        <div className='cursor-pointer '>About Us</div>
+        <div className='login col-span-2'>
+          <div className='imageWrapper'>
+            <img src={leftArrow} alt='' />
+          </div>
+          <div>Login</div>
+        </div>
       </div>
     </div>
   )
