@@ -6,7 +6,7 @@ import Banner from '../Assets/Intro-banner.svg'
 
 const Introduction = () => {
   return (
-    <div className='pt-10 pb-2 pl-14 grid grid-cols-2 gap-4 flex text-[#090809] items-center justify-center flex-row'>
+    <div className='pt-10 pb-2 px-14 grid grid-cols-2 gap-4 flex text-[#090809] items-center justify-center flex-row intro-wrapper'>
       <div className='flex flex-col'>
         <span>Your passport to an amazing career.</span>
         <div className='text-2xl into-hero'>
@@ -55,7 +55,7 @@ const Introduction = () => {
           Get your first job at high paced companies
         </div>
       </div>
-      <div className='px-4'>
+      <div className='flex justify-center items-center'>
         <img src={Banner} alt='' />
       </div>
     </div>
