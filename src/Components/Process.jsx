@@ -9,9 +9,9 @@ import process2 from '../Assets/process2.svg'
 
 const Process = () => {
   return (
-    <>
+    <div className='px-14 process-top-wrapper'>
       <span className='text-3xl font-bold m-14'>Process</span>
-      <div className='pt-10 pb-2 ml-14 mt-5 grid grid-cols-2 gap-4 text-[#090809] processWrapper relative'>
+      <div className='pt-10 pb-2 mt-5 grid grid-cols-2 gap-4 text-[#090809] processWrapper relative'>
         <div className='textWrapper'>
           <span>
             Step{' '}
@@ -36,10 +36,18 @@ const Process = () => {
           </div>
           <div>START</div>
         </div>
-        <img src={ladylaptop} alt='' className='absolute right-[-2rem]' />
-        <img src={wing} alt='' className='absolute right-[20%] top-[0rem] ' />
+        <img
+          src={ladylaptop}
+          alt=''
+          className='absolute right-[-2rem] lady-image'
+        />
+        <img
+          src={wing}
+          alt=''
+          className='absolute right-[20%] top-[0rem] process-wing'
+        />
       </div>
-      <div className='pt-10 pb-2 ml-14 mt-5 grid grid-cols-2 gap-4 text-[#090809] step-two'>
+      <div className='pt-10 pb-2 mt-5 grid grid-cols-2 gap-4 text-[#090809] step-two '>
         <div className='textWrapper'>
           <span>
             Step{' '}
@@ -53,18 +61,18 @@ const Process = () => {
               2
             </span>
           </span>
-          <span className='text-3xl  mt-4 mb-4'>
+          <span className='text-3xl  mt-4 mb-4 process-head process-title-responsive'>
             Join our exclusive cohorts and supercharge your{' '}
-            <span className='text-3xl font-bold mt-4 mb-4'>
+            <span className='text-3xl font-bold mt-4 mb-4 process-head'>
               career in less than 10 weeks.
             </span>
           </span>
-          <div className='grid grid-cols-2 gap-20 text-[#090809]'>
+          <div className='grid grid-cols-2 gap-20 text-[#090809] process-part2'>
             <div className='step-two-steps p-6 relative'>
               <img
                 src={process1}
                 alt=''
-                className='absolute right-[-4rem] bottom-[-0rem]'
+                className='absolute right-[-4rem] bottom-[-0rem] process-part2-1'
               />
               <span className='text-2xl font-bold'>On-Demand Cohorts</span>
               <div className='textWrapper mt-2'>
@@ -104,7 +112,7 @@ const Process = () => {
               <img
                 src={process2}
                 alt=''
-                className='absolute right-[-6rem] bottom-[-0rem]'
+                className='absolute right-[-6rem] bottom-[-0rem] process-part2-2'
               />
               <span className='text-2xl font-bold'>
                 Job Assured Industry Mentorship Program
@@ -145,7 +153,7 @@ const Process = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   )
 }
 
