@@ -4,6 +4,8 @@
   justify-content: flex-start;
   align-items: center;
   background: #ff9a60;
+  // max-width: 10rem;
+  // min-width: 3rem;
   /* Spread Shadow */
 
   box-shadow: 0px 16px 24px #f3f3f3;
@@ -11,8 +13,8 @@
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 0px 10px;
-  margin: 0 3rem;
+  // margin: 0px 10px;
+  // margin: 0 3rem;
   cursor: pointer;
   &:hover {
     background: linear-gradient(76.81deg, #8a3cfc 9.49%, #ff9a60 74.49%);
@@ -31,5 +33,27 @@
     &:hover {
       background: none;
     }
+  }
+}
+
+.navIcon {
+  display: none;
+}
+
+@media only screen and (max-width: 821px) {
+  .nav-wrapper {
+    display: none;
+  }
+  .navIcon {
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .nav-wrapper {
+    display: none;
+  }
+  .navIcon {
+    display: flex;
   }
 }
