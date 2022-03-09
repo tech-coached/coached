@@ -7,6 +7,8 @@ import Student from '../Pages/Student'
 const AppRoutes = () => {
   return (
     <Routes>
+      <Route path='about' element={<Company />} />
+      <Route path='mentors' element={<Company />} />
       <Route path='company' element={<Company />} />
       <Route path='students' element={<Student />} />
       <Route path='/' element={<Home />} />
