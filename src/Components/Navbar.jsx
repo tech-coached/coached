@@ -20,19 +20,41 @@ const Navbar = () => {
       <div className='flex justify-center items-center col-span-7 grid grid-cols-6 gap-4 nav-wrapper'>
         <div className='cursor-pointer flex items-center justify-center hover:font-bold'>
           {' '}
-          <Link to='/'>Home</Link>
+          <Link to='/' className={location.pathname === '/' ? 'font-bold' : ''}>
+            Home
+          </Link>
         </div>
         <div className='flex items-center justify-center cursor-pointer'>
-          <Link to='/company'>Company</Link>
+          <Link
+            to='/company'
+            className={location.pathname === '/company' ? 'font-bold' : ''}
+          >
+            Company
+          </Link>
         </div>
         <div className='flex items-center justify-center cursor-pointer'>
-          <Link to='/student'>Student</Link>
+          <Link
+            to='/students'
+            className={location.pathname === '/students' ? 'font-bold' : ''}
+          >
+            Student
+          </Link>
         </div>
         <div className='flex items-center justify-center cursor-pointer'>
-          Mentors
+          <Link
+            to='/mentors'
+            className={location.pathname === '/mentors' ? 'font-bold' : ''}
+          >
+            Mentors
+          </Link>
         </div>
         <div className='flex items-center justify-center cursor-pointer '>
-          About Us
+          <Link
+            to='/about'
+            className={location.pathname === '/about' ? 'font-bold' : ''}
+          >
+            About Us
+          </Link>
         </div>
         <div className='flex items-center justify-center login col-span-1 '>
           <div className='imageWrapper'>
@@ -67,7 +89,7 @@ const Navbar = () => {
           </svg>
         )}
       </div>
-      {icon && (
+      {!icon && (
         <div className='absolute right-[2.5rem] top-[3rem] nav-dropdown w-[10rem] flex items-center justify-center flex-col px-6 bg-[#ffffff] pb-4 rounded-[10px]'>
           <span className='p-2'>
             <Link
