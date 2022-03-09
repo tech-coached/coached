@@ -40,6 +40,14 @@
   display: none;
 }
 
+.nav-dropdown {
+  -webkit-box-shadow: -1px 2px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 2px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px 2px 5px 0px rgba(0, 0, 0, 0.75);
+  height: max-content;
+  z-index: 1000;
+}
+
 @media only screen and (max-width: 821px) {
   .nav-wrapper {
     display: none;
