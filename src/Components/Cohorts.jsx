@@ -4,12 +4,13 @@ import message from '../Assets/message.svg'
 import bag from '../Assets/bag.svg'
 import tropy from '../Assets/tropy.svg'
 import process3 from '../Assets/process3.svg'
+import '../Styles/cohorts.scss'
 
 const Cohorts = () => {
   return (
     <>
       <span className='text-3xl font-bold m-14'>CoachEd Cohorts</span>
-      <div className='pt-4 pb-2 pl-14 mt-2 grid grid-cols-2 gap-4 text-[#090809]'>
+      <div className='pt-4 pb-2 px-14 mt-2 grid grid-cols-2 gap-4 text-[#090809] cohorts-wrapper'>
         <div>
           <div>
             <span className='text-3xl font-bold text-[#15CD98]'>10x </span>{' '}
