@@ -31,7 +31,7 @@ const slicksettings = {
 
 const Home = () => {
   return (
-    <div>
+    <div className='w-[100%]'>
       <Navbar />
       <Introduction />
       <CompaniesCarousel companies={companies} settings={slicksettings} />
@@ -42,9 +42,9 @@ const Home = () => {
       <Process />
       <Cohorts />
       <Experience />
-      <Records />
-      <Tweets />
-      <Footer />
+      {/* <Records /> */}
+      {/* <Tweets />
+      <Footer /> */}
     </div>
   )
 }
