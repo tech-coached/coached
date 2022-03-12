@@ -122,6 +122,20 @@
 }
 
 @media only screen and (max-width: 821px) {
+  .processWrapper {
+    height: 600px;
+    overflow: hidden;
+  }
+
+  .lady-image {
+    bottom: -2rem;
+  }
+
+  .process-wing {
+    left: -5rem;
+    top: 15rem;
+  }
+
   .process-top-wrapper {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -152,6 +166,20 @@
 }
 
 @media only screen and (max-width: 640px) {
+  .processWrapper {
+    height: 600px;
+    overflow: hidden;
+  }
+
+  .lady-image {
+    bottom: -2rem;
+  }
+
+  .process-wing {
+    left: -5rem;
+    top: 15rem;
+  }
+
   .process-top-wrapper {
     padding-left: 1rem;
     padding-right: 1rem;

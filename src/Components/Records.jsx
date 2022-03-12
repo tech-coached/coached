@@ -51,18 +51,22 @@ const Records = () => {
       <span className='text-3xl font-bold pl-14 records-title'>
         In 2021, we have gone beyond and above to serve our students
       </span>
-      <div className='pt-10 pb-2 pl-14 grid grid-cols-4 gap-4 records-numbers'>
+      <div className='pt-10 pb-2 px-14 grid grid-cols-4 gap-4 records-numbers'>
         <div className='flex justify-start items-start flex-col record-num'>
           <span className='text-[#BF0808] font-bold text-3xl pb-4'>600+</span>{' '}
           <span className=' font-bold text-2xl'>Paid Users</span>
         </div>
         <div className='flex justify-start items-start flex-col record-num'>
           <span className='text-[#BF0808] font-bold text-3xl pb-4'>20LPA</span>{' '}
-          <span className=' font-bold text-2xl'>Highest Package</span>
+          <span className=' font-bold text-2xl higest-package'>
+            Highest Package
+          </span>
         </div>
         <div className='flex justify-start items-start flex-col record-num'>
           <span className='text-[#BF0808] font-bold text-3xl pb-4'>45+</span>{' '}
-          <span className=' font-bold text-2xl'>Hiring Partners</span>
+          <span className=' font-bold text-2xl higest-package'>
+            Hiring Partners
+          </span>
         </div>
         <div className='flex justify-start items-start flex-col record-num'>
           <span className='text-[#BF0808] font-bold text-3xl pb-4'>80%</span>{' '}
@@ -70,13 +74,16 @@ const Records = () => {
         </div>
       </div>
       <div
-        style={{ backgroundImage: `url(${bgImage})` }}
-        className='h-[600px] mt-20 relative flex justify-center items-center'
+        style={{
+          backgroundImage: `url(${bgImage})`,
+          backgroundSize: 'cover',
+        }}
+        className='h-[600px] mt-20 relative flex justify-center items-center bgImage'
       >
-        <span className='text-3xl font-bold absolute top-[5rem] left-[3.5rem]'>
+        <span className='text-3xl font-bold absolute top-[5rem] left-[3.5rem] records-hello'>
           Say hello to our mentors and educators
         </span>
-        <div className='record px-14 py-6'>
+        <div className='record px-14 py-20'>
           <Slider {...settings}>
             {companies.map((item, index) => {
               return (

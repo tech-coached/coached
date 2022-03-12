@@ -42,9 +42,9 @@ const Home = () => {
       <Process />
       <Cohorts />
       <Experience />
-      {/* <Records /> */}
-      {/* <Tweets />
-      <Footer /> */}
+      <Records />
+      <Tweets />
+      <Footer />
     </div>
   )
 }

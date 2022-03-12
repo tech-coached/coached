@@ -10,7 +10,7 @@ const Tweets = () => {
       <span className='text-[#ffffff] text-3xl font-bold '>
         #DilKiBaat from our CoachEd mentees
       </span>
-      <div className='grid grid-cols-3 grid-rows-8 gap-4 p-10 pl-0'>
+      <div className='grid grid-cols-3 grid-rows-8 gap-4 p-10 pl-0 tweet-grid-wrap'>
         <div className='row-span-3 bg-[#ffffff] rounded-[10px] p-4'>
           <div>
             <p>

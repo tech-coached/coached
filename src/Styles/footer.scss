@@ -43,3 +43,38 @@
   width: 150px;
   height: 41.76px;
 }
+
+@media only screen and (max-width: 821px) {
+  .footer-grid-wrap {
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+
+  .footer-download {
+    position: absolute;
+    right: 3rem !important;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .footer-grid-wrap {
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+  .footer-download {
+    position: absolute;
+    right: 3rem;
+  }
+  .footer-social {
+    display: none;
+  }
+
+  .social-icons {
+    width: 6rem;
+  }
+
+  .footer-download-wrapper {
+    flex-wrap: wrap;
+    padding: 2rem;
+  }
+}

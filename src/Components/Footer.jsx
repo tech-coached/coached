@@ -11,8 +11,8 @@ import '../Styles/footer.scss'
 
 const Footer = () => {
   return (
-    <div className='bg-[#E5E5E5] h-[500px]'>
-      <div className='pl-14 py-5 pt-10 grid grid-cols-12 gap-2 '>
+    <div className=' h-[500px] '>
+      <div className=' bg-[#E5E5E5] px-4 py-5 pb-1 pt-10 grid grid-cols-12 gap-1 footer-grid-wrap'>
         <div className='col-span-2 grid grid-rows-5'>
           <span className='font-bold'>Navigate</span>
           <span>Home</span>
@@ -48,28 +48,28 @@ const Footer = () => {
           <div className='flex justify-center items-center social-icons'>
             <img src={linkedinIcon} alt='' />
 
-            <span className='pl-4 pt-1'>Linkedin</span>
+            <span className='pl-4 pt-1 footer-social'>Linkedin</span>
           </div>
           <div className='flex justify-center items-center social-icons'>
             <img src={fbIcon} alt='' />
 
-            <span className='pl-4 pt-1'>Facebook</span>
+            <span className='pl-4 pt-1 footer-social'>Facebook</span>
           </div>
           <div className='flex justify-center items-center social-icons'>
             <img src={Twittericon} alt='' />
 
-            <span className='pl-4 pt-1'>Twitter</span>
+            <span className='pl-4 pt-1 footer-social'>Twitter</span>
           </div>
           <div className='flex justify-center items-center social-icons'>
             <img src={instaIcon} alt='' />
 
-            <span className='pl-4 pt-1'>Instagram</span>
+            <span className='pl-4 pt-1 footer-social'>Instagram</span>
           </div>
         </div>
       </div>
-      <div className='flex justify-start items-center pl-14 relative'>
+      <div className='bg-[#ffffff] px-4 flex justify-between items-center relative footer-download-wrapper pb-6'>
         <span className='font-bold w-[20rem]'>Made with love @ CoachEd</span>
-        <div className='flex justify-center items-center w-full absolute right-[0rem]'>
+        <div className='flex justify-center items-center'>
           <span className='font-bold w-[15rem]'>Download the app from</span>
           <img src={playstore} alt='' />
           <img src={apple} alt='' className='ml-4' />

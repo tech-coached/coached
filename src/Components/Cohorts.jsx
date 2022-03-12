@@ -3,7 +3,7 @@ import clock from '../Assets/clock.svg'
 import message from '../Assets/message.svg'
 import bag from '../Assets/bag.svg'
 import tropy from '../Assets/tropy.svg'
-import process3 from '../Assets/process3.svg'
+import process3 from '../Assets/Phone -Pattern.svg'
 import '../Styles/cohorts.scss'
 
 const Cohorts = () => {
@@ -63,8 +63,8 @@ const Cohorts = () => {
             </div>
           </div>
         </div>
-        <div>
-          <img src={process3} alt='' className='pr-10' />
+        <div className='flex justify-center items-center'>
+          <img src={process3} alt='' className='' />
         </div>
       </div>
     </>
