@@ -87,3 +87,40 @@
     }
   }
 }
+
+@media only screen and (max-width: 821px) {
+  .experience-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .student {
+    width: 100%;
+  }
+
+  .company {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .experience-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .student {
+    width: 100%;
+  }
+  .company {
+    width: 100%;
+  }
+}

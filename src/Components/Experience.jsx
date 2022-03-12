@@ -14,7 +14,7 @@ const Experience = () => {
           The CoachEd Power for Student/Company{' '}
         </span>
       </div>
-      <div className='pt-4 pb-2 pl-14 mt-5 grid grid-cols-12 gap-10 '>
+      <div className='pt-4 pb-2 pl-14 mt-5 grid grid-cols-12 gap-10 experience-wrapper'>
         <div className='student col-span-5 relative'>
           <img
             src={experience1}
