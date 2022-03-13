@@ -18,7 +18,13 @@
 }
 
 @media only screen and (max-width: 821px) {
+  .slick-slide div {
+    margin-right: 0 !important;
+  }
 }
 
 @media only screen and (max-width: 640px) {
+  .slick-slide div {
+    margin-right: 0 !important;
+  }
 }

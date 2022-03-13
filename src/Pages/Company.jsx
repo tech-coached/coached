@@ -8,22 +8,22 @@ import CompanyHiringpartner from '../Components/CompanyHiringpartner'
 import Footer from '../Components/Footer'
 import Warrior from '../Components/Warrior'
 
-const companies = [
+const companies1 = [
   Target,
   Target,
   Target,
   Target,
-  Target,
-  Target,
-  Target,
-  Target,
+  // Target,
+  // Target,
+  // Target,
+  // Target,
 ]
 const slicksettings = {
   infinite: true,
   slidesToShow: 4,
   slidesToScroll: 1,
   autoplay: true,
-  autoplaySpeed: 3000000,
+  // autoplaySpeed: 3000000,
   dots: false,
 }
 
@@ -33,9 +33,9 @@ const Company = () => {
       <Navbar />
       <Title />
       <CompanyCard />
-      <CompaniesCarousel companies={companies} settings={slicksettings} />
+      <CompaniesCarousel companies={companies1} settings={slicksettings} />
       <CompaniesCarousel
-        companies={companies}
+        companies={companies1}
         settings={{ ...slicksettings, rtl: true }}
       />
       {/* <CompanyHiringpartner /> */}

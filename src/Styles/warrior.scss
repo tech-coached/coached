@@ -44,3 +44,36 @@
 .fast-paced {
   background: linear-gradient(80.82deg, #8a3cfc 6.96%, #bf0808 94.15%);
 }
+
+@media only screen and (max-width: 821px) {
+  .warrior-mail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 140px;
+    .mail {
+      margin-top: 1rem;
+      width: 80%;
+      padding: 0 0 0.5rem 0;
+    }
+    span {
+      margin-top: 1rem;
+      padding-left: 0;
+    }
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .warrior-mail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 140px;
+    span {
+      margin-top: 1rem;
+      padding-left: 0;
+    }
+  }
+}

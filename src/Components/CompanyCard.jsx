@@ -7,7 +7,7 @@ import '../Styles/CompanyCard.scss'
 const CompanyCard = () => {
   return (
     <div className='px-14 grid grid-cols-3 gap-10 company-card-grid-wrapper'>
-      <div className='h-[448px] bg-[#DFE1F7] p-6 my-10 rounded-[10px]'>
+      <div className='h-[448px] bg-[#DFE1F7] p-6 my-10 rounded-[10px] flex justify-center items-center flex-col'>
         <div>
           <img src={cardImg1} alt='' />
         </div>
@@ -16,7 +16,7 @@ const CompanyCard = () => {
           <span>Our Grads</span>
         </div>
       </div>
-      <div className='h-[448px] bg-[#DFE1F7] p-6 my-10 rounded-[10px]'>
+      <div className='h-[448px] bg-[#DFE1F7] p-6 my-10 rounded-[10px] flex justify-center items-center flex-col'>
         <div>
           <img src={cardImg2} alt='' />
         </div>
@@ -29,7 +29,7 @@ const CompanyCard = () => {
           <span>, all in one place!</span>
         </div>
       </div>
-      <div className='h-[448px] bg-[#DFE1F7] p-6 my-10 rounded-[10px] company-card-center'>
+      <div className='h-[448px] bg-[#DFE1F7] p-6 my-10 rounded-[10px] flex justify-center items-center flex-col'>
         <div>
           <img src={cardImg3} alt='' />
         </div>
