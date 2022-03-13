@@ -1,0 +1,19 @@
+@media only screen and (max-width: 821px) {
+  .questions-wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+  .question-arrow1 {
+    top: 3rem;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .questions-wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+  .question-arrow1 {
+    top: 3rem;
+  }
+}
