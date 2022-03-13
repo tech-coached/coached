@@ -1,14 +1,15 @@
 import React from 'react'
 import Mentor1 from '../Assets/mentor1.svg'
 import TwitterImg from '../Assets/twitterImg.svg'
+import '../Styles/few-tweets.scss'
 
 const FewTweet = () => {
   return (
-    <div>
-      <span className='text-3xl font-bold px-14'>
+    <div className=' mt-6'>
+      <span className='text-3xl font-bold px-14 mt-6 few-tweet-title'>
         Here's what they have to say
       </span>
-      <div className='grid grid-cols-3 gap-6 px-14 py-4  mt-10'>
+      <div className='grid grid-cols-3 gap-6 px-14 py-4  mt-4 few-tweets-wrapper'>
         <div className='row-span-3 bg-[#ffffff] rounded-[10px] p-4 shadow-[0px_4px_8px_#F3F3F3]'>
           <div>
             <p>
@@ -30,12 +31,12 @@ const FewTweet = () => {
           </div>
         </div>
         <div className='row-span-3 bg-[#ffffff] rounded-[10px] p-4 shadow-[0px_4px_8px_#F3F3F3]'>
-          <div className='p-2 flex justify-start items-center bg-[#EAE0F4] w-[8rem] rounded-[10px] my-2'>
+          {/* <div className='p-2 flex justify-start items-center bg-[#EAE0F4] w-[8rem] rounded-[10px] my-2'>
             <span>Pulled from</span>
             <div>
               <img src={TwitterImg} alt='' />
             </div>
-          </div>
+          </div> */}
           <div>
             <p>
               Increasingly surprised with the breadth and quality of people at

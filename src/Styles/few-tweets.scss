@@ -1,0 +1,25 @@
+@media only screen and (max-width: 640px) {
+  .few-tweets-wrapper {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .few-tweet-title {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+@media only screen and (max-width: 821px) {
+  g.few-tweets-wrapper {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .few-tweet-title {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1.5rem;
+  }
+}

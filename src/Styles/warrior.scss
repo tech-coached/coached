@@ -62,6 +62,26 @@
       padding-left: 0;
     }
   }
+
+  .warrior-values {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    height: max-content;
+    flex-direction: column;
+    span {
+      padding-left: 0;
+    }
+  }
+
+  .warrior-card-wrap {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  .warrior-text {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }
 
 @media only screen and (max-width: 640px) {
@@ -75,5 +95,32 @@
       margin-top: 1rem;
       padding-left: 0;
     }
+    .warrior-perform {
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+    }
+  }
+
+  .warrior-values {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    height: max-content;
+    flex-direction: column;
+    span {
+      padding-left: 0;
+    }
+    .warrior-perform {
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+    }
+  }
+  .warrior-card-wrap {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+  .warrior-text {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1.5rem;
   }
 }
