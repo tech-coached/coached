@@ -124,15 +124,21 @@ const Domain = () => {
           <span className='text-xl font-bold text-[red]'>Join us!</span>
         </span>
         <div className='px-14 grid grid-cols-2 gap-10 pt-10 mb-10'>
-          {domain.map((item) => {
+          {domain.map((item, index) => {
             return (
-              <div className='h-[248px] bg-[#15CD98] p-6 rounded-[10px]'>
+              <div
+                className='h-[248px] bg-[#15CD98] p-6 rounded-[10px]'
+                key={index}
+              >
                 <span className='text-2xl font-bold text-[#ffffff]'>
                   {item.name}
                 </span>
                 {item.skills.map((i) => {
                   return (
-                    <div className='flex justify-start items-center  my-2'>
+                    <div
+                      className='flex justify-start items-center  my-2'
+                      key={index}
+                    >
                       <div className='mr-2'>
                         <img src={star} alt='' />
                       </div>

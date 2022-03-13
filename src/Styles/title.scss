@@ -1,10 +1,50 @@
 .title {
   background: linear-gradient(93.4deg, #6069d6 5.1%, #272f98 100%);
-  width: 1135px;
+  width: 85%;
   height: 304px;
   border-radius: 10px;
 }
 
 .bg-title {
   background: linear-gradient(93.4deg, #6069d6 5.1%, #272f98 100%);
+}
+
+@media only screen and (max-width: 821px) {
+  .title {
+    background: linear-gradient(93.4deg, #6069d6 5.1%, #272f98 100%);
+    width: 90% !important;
+    height: 504px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 1rem;
+    margin: 1rem;
+  }
+  .title-chair {
+    right: 0rem;
+  }
+
+  .title-msg {
+    position: absolute;
+    top: 1rem;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .title {
+    background: linear-gradient(93.4deg, #6069d6 5.1%, #272f98 100%);
+    width: 90% !important;
+    height: 504px !important;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 1rem;
+    margin: 1rem;
+  }
+  .title-chair {
+    right: 0rem;
+  }
+
+  .title-msg {
+    position: absolute;
+    top: 1rem;
+  }
 }

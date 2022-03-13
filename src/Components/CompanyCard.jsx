@@ -2,10 +2,11 @@ import React from 'react'
 import cardImg1 from '../Assets/cardImg1.svg'
 import cardImg2 from '../Assets/cardImg2.svg'
 import cardImg3 from '../Assets/cardImg3.svg'
+import '../Styles/CompanyCard.scss'
 
 const CompanyCard = () => {
   return (
-    <div className='px-14 grid grid-cols-3 gap-10'>
+    <div className='px-14 grid grid-cols-3 gap-10 company-card-grid-wrapper'>
       <div className='h-[448px] bg-[#DFE1F7] p-6 my-10 rounded-[10px]'>
         <div>
           <img src={cardImg1} alt='' />
@@ -28,7 +29,7 @@ const CompanyCard = () => {
           <span>, all in one place!</span>
         </div>
       </div>
-      <div className='h-[448px] bg-[#DFE1F7] p-6 my-10 rounded-[10px]'>
+      <div className='h-[448px] bg-[#DFE1F7] p-6 my-10 rounded-[10px] company-card-center'>
         <div>
           <img src={cardImg3} alt='' />
         </div>

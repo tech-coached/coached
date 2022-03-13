@@ -12,7 +12,7 @@ import '../Styles/footer.scss'
 const Footer = () => {
   return (
     <div className=' h-[500px] '>
-      <div className=' bg-[#E5E5E5] px-4 py-5 pb-1 pt-10 grid grid-cols-12 gap-1 footer-grid-wrap'>
+      <div className=' bg-[#E5E5E5] px-14 py-5 pb-1 pt-10 grid grid-cols-12 gap-1 footer-grid-wrap'>
         <div className='col-span-2 grid grid-rows-5'>
           <span className='font-bold'>Navigate</span>
           <span>Home</span>
@@ -67,7 +67,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className='bg-[#ffffff] px-4 flex justify-between items-center relative footer-download-wrapper pb-6'>
+      <div className='bg-[#ffffff] px-14 flex justify-between items-center relative footer-download-wrapper pb-6'>
         <span className='font-bold w-[20rem]'>Made with love @ CoachEd</span>
         <div className='flex justify-center items-center'>
           <span className='font-bold w-[15rem]'>Download the app from</span>

@@ -8,4 +8,17 @@
   display: flex !important;
   justify-content: center !important;
   align-items: center !important;
+  div {
+    width: 100%;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin: 0%;
+  }
+}
+
+@media only screen and (max-width: 821px) {
+}
+
+@media only screen and (max-width: 640px) {
 }

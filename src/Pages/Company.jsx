@@ -23,7 +23,7 @@ const slicksettings = {
   slidesToShow: 4,
   slidesToScroll: 1,
   autoplay: true,
-  autoplaySpeed: 3000,
+  autoplaySpeed: 3000000,
   dots: false,
 }
 
@@ -38,7 +38,7 @@ const Company = () => {
         companies={companies}
         settings={{ ...slicksettings, rtl: true }}
       />
-      <CompanyHiringpartner />
+      {/* <CompanyHiringpartner /> */}
       <Warrior />
       <Footer />
     </div>
