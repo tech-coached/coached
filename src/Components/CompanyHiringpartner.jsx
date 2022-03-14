@@ -10,21 +10,21 @@ const Companyhiringpartner = () => {
   return (
     <>
       <div
-        className='pt-10 pb-2 ml-14 mt-5 grid grid-cols-2 gap-4 text-[#090809] step-two'
+        className='pt-10 pb-2 mx-14 mt-5 grid grid-cols-2 gap-4 text-[#090809] step-two w-[90%]'
         style={{
           background:
             'linear-gradient(249.11deg, #67CE67 5.47%, #64EFC7 71.54%)',
         }}
       >
         <div className='textWrapper'>
-          <span className='text-3xl  mt-4 mb-4'>
-            You win with CoachEd
+          <div className='hiring-partner-title'>
+            <span className='text-3xl  mt-4 mb-4'>You win with CoachEd</span>
             <span className='text-3xl font-bold mt-4 mb-4'>
               {' '}
               as your Hiring Partner
             </span>
-          </span>
-          <div className='grid grid-cols-2 gap-20 text-[#090809] '>
+          </div>
+          <div className='grid grid-cols-2 gap-20 text-[#090809] hiring-partner-features-wrapper '>
             <div className='step-two-steps p-6 relative'>
               <img
                 src={hiring1}
@@ -72,9 +72,9 @@ const Companyhiringpartner = () => {
         </div>
       </div>
 
-      <div className='h-[80px] bg-[#4FBEFB] mx-14 rounded-[10px] relative flex justify-between items-center mb-10'>
-        <img src={chakra} alt='' className='absolute rounded-[10px]' />
-        <span className='font-bold pl-20 text-[#ffffff]'>
+      <div className='h-[80px] bg-[#4FBEFB] mx-14 rounded-[10px] relative flex justify-between items-center mb-10 hiring-partner-foot'>
+        <img src={chakra} alt='' className='absolute rounded-[10px] left-[0]' />
+        <span className='font-bold pl-20 text-[#000000]'>
           8 day turnaround guaranteed
         </span>
         <div className='mail col-span-2 w-[22rem] text-[#ffffff]'>

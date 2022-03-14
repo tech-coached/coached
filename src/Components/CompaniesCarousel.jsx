@@ -12,9 +12,9 @@ const CompaniesCarousel = ({ companies, settings }) => {
           return (
             <div
               key={index}
-              className='campany-carousel-wrap h-[100px] w-[100%] '
+              className='campany-carousel-wrap h-[80px] w-[80%] '
             >
-              <img src={item} alt='' className='h-[100%] w-[100%]' />
+              <img src={item} alt='' className='h-[90%] w-[80%]' />
             </div>
           )
         })}

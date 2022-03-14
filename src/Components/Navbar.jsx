@@ -60,7 +60,7 @@ const Navbar = () => {
           <div className='imageWrapper'>
             <img src={leftArrow} alt='' />
           </div>
-          <div className='pr-2'>Login</div>
+          <div className='pr-2 text-white' ><a href="https://docs.google.com/forms/d/1AwN6x1zMlr_362zLZlBa7nJ2fFfmS44MlIxsMCB1Gkk/edit">Login</a></div>
         </div>
       </div>
       <div className='navIcon absolute right-[2.5rem]'>
@@ -135,7 +135,7 @@ const Navbar = () => {
             <div className='imageWrapper'>
               <img src={leftArrow} alt='' />
             </div>
-            <div className='pr-4 text-[#ffffff]'>Login</div>
+            <div className='pr-4 text-[#ffffff]'><a href="https://docs.google.com/forms/d/1AwN6x1zMlr_362zLZlBa7nJ2fFfmS44MlIxsMCB1Gkk/edit">Login</a></div>
           </div>
         </div>
       )}

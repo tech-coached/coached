@@ -6,6 +6,9 @@ import student4 from '../Assets/student4.svg'
 import student5 from '../Assets/student5.svg'
 import student6 from '../Assets/student6.svg'
 import student7 from '../Assets/student7.svg'
+import student8 from '../Assets/stud-process.svg'
+import student9 from '../Assets/stud-process2.svg'
+import "../Styles/domain.scss"
 
 const domain = [
   {
@@ -28,16 +31,17 @@ const domain = [
 
 const Domain = () => {
   return (
-    <div>
+    <div className='pb-10 px-14 domain-main-wrapper'>
       <div className='pt-10'>
-        <span className='text-xl px-14 font-semibold'>
-          A training program for you to{' '}
-          <span className='font-bold text-xl'>master skills</span> that would
-          win you{' '}
+        <div className='domain-title'>
+          <span  className='text-xl  font-semibold'> A training program for you to{' '}</span>
+          <span className='font-bold text-xl'>master skills</span> 
+          <span className='text-xl  font-semibold'>that would
+          win you{' '}</span>
           <span className='font-bold text-xl'>ultimate career wars!</span>
-        </span>
-        <div className='px-14 grid grid-cols-3 gap-10 pt-10 mb-10'>
-          <div>
+        </div>
+        <div className=' grid grid-cols-3 gap-10 pt-10 mb-10 domain-grid-wrapper'>
+          <div className='domain-grid-item'>
             <div>
               <img src={student2} alt='' />
             </div>
@@ -50,7 +54,7 @@ const Domain = () => {
               </span>
             </div>
           </div>
-          <div>
+          <div className='domain-grid-item'>
             <div>
               <img src={student3} alt='' />
             </div>
@@ -63,7 +67,7 @@ const Domain = () => {
               </span>
             </div>
           </div>
-          <div>
+          <div className='domain-grid-item'>
             <div>
               <img src={student4} alt='' />
             </div>
@@ -76,7 +80,7 @@ const Domain = () => {
               </span>
             </div>
           </div>
-          <div>
+          <div className='domain-grid-item'>
             <div>
               <img src={student5} alt='' />
             </div>
@@ -89,7 +93,7 @@ const Domain = () => {
               </span>
             </div>
           </div>
-          <div>
+          <div className='domain-grid-item'>
             <div>
               <img src={student6} alt='' />
             </div>
@@ -102,7 +106,7 @@ const Domain = () => {
               </span>
             </div>
           </div>
-          <div>
+          <div className='domain-grid-item'>
             <div>
               <img src={student7} alt='' />
             </div>
@@ -119,11 +123,11 @@ const Domain = () => {
         </div>
       </div>
       <div className='pt-10'>
-        <span className='text-xl px-14 font-semibold'>
-          If you have that grit and determination to become the best,{' '}
+        <div className='domain-subjects'>
+         <span className='text-xl  font-semibold'> If you have that grit and determination to become the best,{' '}</span>
           <span className='text-xl font-bold text-[red]'>Join us!</span>
-        </span>
-        <div className='px-14 grid grid-cols-2 gap-10 pt-10 mb-10'>
+        </div>
+        <div className=' grid grid-cols-2 gap-10 pt-10 mb-10 domain-subjects-wrapper'>
           {domain.map((item, index) => {
             return (
               <div
@@ -152,6 +156,11 @@ const Domain = () => {
             )
           })}
         </div>
+      </div>
+      <div className='student-process'>
+      <span className='text-3xl font-semibold mx-14 text-center ' >If you have that grit and determination to become the best, Join us!</span>
+      <img src={ student8} alt="" className='stud-pocesss-main pt-10'/>
+      <img src={ student9} alt="" className='stud-pocesss-sub pt-10'/>
       </div>
     </div>
   )

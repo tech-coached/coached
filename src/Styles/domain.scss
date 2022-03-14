@@ -1,0 +1,85 @@
+
+.stud-pocesss-sub{
+ display: none;
+}
+
+@media only screen and (max-width: 821px) {
+ .domain-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ }
+ .domain-grid-wrapper{
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  .domain-grid-item{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+  }
+ }
+ 
+ .domain-subjects{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  span{
+   text-align: center;
+  }
+ }
+
+ .domain-subjects-wrapper{
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  padding-left: 1rem;
+  padding-right: 1rem;
+ }
+
+}
+
+@media only screen and (max-width: 640px) {
+ .domain-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ }
+ .domain-grid-wrapper{
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  .domain-grid-item{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+  }
+ }
+ .domain-subjects{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  span{
+   text-align: center;
+  }
+ }
+
+ .domain-subjects-wrapper{
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  padding-left: 1rem;
+  padding-right: 1rem;
+ }
+
+ .student-process{
+  margin-left: 1rem;
+  margin: auto;
+ }
+
+ .domain-main-wrapper{
+  padding: 2rem 1rem;
+ }
+
+ .stud-pocesss-main{
+  display: none;
+ }
+}

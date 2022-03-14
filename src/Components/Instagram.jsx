@@ -1,17 +1,17 @@
 import React from 'react'
 import '../Styles/tweets.scss'
+import '../Styles/instagram.scss'
 import Mentor1 from '../Assets/mentor1.svg'
-import TwitterImg from '../Assets/twitterImg.svg'
 import TweetImg from '../Assets/tweetImg.svg'
-import instaImg from '../Assets/instaImg.svg'
+import instaImg from '../Assets/insta-icon.svg'
 
 const Instagram = () => {
   return (
-    <div className='w-full tweets pl-14 py-10'>
+    <div className='w-full tweets px-14 py-10 insta-main-wrapper'>
       <span className='text-[#ffffff] text-3xl font-bold '>
-        #DilKiBaat from our CoachEd mentees
+        Want a sneakpeek into our Kingdom
       </span>
-      <div className='grid grid-cols-3 grid-rows-6 gap-4 p-10 pl-0'>
+      <div className='grid grid-cols-3 grid-rows-6 gap-4 p-10 pl-0 insta-wrapper'>
         <div className='row-span-3 bg-[#ffffff] rounded-[10px] p-4'>
           <div>
             <p>
@@ -22,7 +22,7 @@ const Instagram = () => {
             </p>
             <p className='pt-6'>11:19 · 6 Jan 2022</p>
           </div>
-          <div className=' bg-[#FFFFFF] rounded-xl flex justify-start items-center py-2'>
+          <div className=' bg-[#FFFFFF] rounded-xl flex justify-start items-center py-2 relative'>
             <div className='  h-[3rem] m-2'>
               <img src={Mentor1} alt='' className='rounded-full  h-[4rem]' />
             </div>
@@ -30,6 +30,7 @@ const Instagram = () => {
               <span className='text-xl font-semibold py-1'>Mentor Name</span>
               <span>Mentor Designation</span>
             </div>
+            <img src={instaImg} alt="" className='absolute right-[1rem] w-[2rem]'/>
           </div>
         </div>
         <div className='row-span-4 bg-[#ffffff] rounded-[10px] p-4'>
@@ -44,7 +45,7 @@ const Instagram = () => {
             </p>
             <p className='pt-6'>11:19 · 6 Jan 2022</p>
           </div>
-          <div className=' bg-[#FFFFFF] rounded-xl flex justify-start items-center py-2'>
+          <div className=' bg-[#FFFFFF] rounded-xl flex justify-start items-center py-2 relative'>
             <div className='  h-[3rem] m-2'>
               <img src={Mentor1} alt='' className='rounded-full  h-[4rem]' />
             </div>
@@ -52,15 +53,16 @@ const Instagram = () => {
               <span className='text-xl font-semibold py-1'>Mentor Name</span>
               <span>Mentor Designation</span>
             </div>
+            <img src={instaImg} alt="" className='absolute right-[1rem] w-[2rem]'/>
           </div>
         </div>
         <div className='row-span-2 bg-[#ffffff] rounded-[10px] p-4'>
-          <div className='p-2 flex justify-start items-center bg-[#EAE0F4] w-[8rem] rounded-[10px] my-2'>
+          {/* <div className='p-2 flex justify-start items-center bg-[#EAE0F4] w-[8rem] rounded-[10px] my-2'>
             <span>Pulled from</span>
             <div>
               <img src={TwitterImg} alt='' />
             </div>
-          </div>
+          </div> */}
           <div>
             <p>
               Increasingly surprised with the breadth and quality of people at
@@ -72,7 +74,7 @@ const Instagram = () => {
             </p>
             <p className='pt-6'>11:19 · 6 Jan 2022</p>
           </div>
-          <div className=' bg-[#FFFFFF] rounded-xl flex justify-start items-center py-2'>
+          <div className=' bg-[#FFFFFF] rounded-xl flex justify-start items-center py-2 relative'>
             <div className='  h-[3rem] m-2'>
               <img src={Mentor1} alt='' className='rounded-full  h-[4rem]' />
             </div>
@@ -80,15 +82,16 @@ const Instagram = () => {
               <span className='text-xl font-semibold py-1'>Mentor Name</span>
               <span>Mentor Designation</span>
             </div>
+            <img src={instaImg} alt="" className='absolute right-[1rem] w-[2rem]'/>
           </div>
         </div>
         <div className='row-span-2 bg-[#ffffff] rounded-[10px] p-4'>
-          <div className='p-2 flex justify-start items-center bg-[#EAE0F4] w-[8rem] rounded-[10px] my-2'>
+          {/* <div className='p-2 flex justify-start items-center bg-[#EAE0F4] w-[8rem] rounded-[10px] my-2'>
             <span>Pulled from</span>
             <div>
               <img src={TwitterImg} alt='' />
             </div>
-          </div>
+          </div> */}
           <div>
             <p>
               Increasingly surprised with the breadth and quality of people at
@@ -100,7 +103,7 @@ const Instagram = () => {
             </p>
             <p className='pt-6'>11:19 · 6 Jan 2022</p>
           </div>
-          <div className=' bg-[#FFFFFF] rounded-xl flex justify-start items-center py-2'>
+          <div className=' bg-[#FFFFFF] rounded-xl flex justify-start items-center py-2 relative'>
             <div className='  h-[3rem] m-2'>
               <img src={Mentor1} alt='' className='rounded-full  h-[4rem]' />
             </div>
@@ -108,15 +111,16 @@ const Instagram = () => {
               <span className='text-xl font-semibold py-1'>Mentor Name</span>
               <span>Mentor Designation</span>
             </div>
+            <img src={instaImg} alt="" className='absolute right-[1rem] w-[2rem]'/>
           </div>
         </div>
         <div className='row-span-5 bg-[#ffffff] rounded-[10px] p-4'>
-          <div className='p-2 flex justify-start items-center bg-[#EAE0F4] w-[8rem] rounded-[10px] my-2'>
+          {/* <div className='p-2 flex justify-start items-center bg-[#EAE0F4] w-[8rem] rounded-[10px] my-2'>
             <span>Pulled from</span>
             <div>
               <img src={TwitterImg} alt='' />
             </div>
-          </div>
+          </div> */}
           <div>
             <p>
               Increasingly surprised with the breadth and quality of people at
@@ -128,7 +132,7 @@ const Instagram = () => {
             </p>
             <p className='pt-6'>11:19 · 6 Jan 2022</p>
           </div>
-          <div className=' bg-[#FFFFFF] rounded-xl flex justify-start items-center py-2'>
+          <div className=' bg-[#FFFFFF] rounded-xl flex justify-start items-center py-2 relative'>
             <div className='  h-[3rem] m-2'>
               <img src={Mentor1} alt='' className='rounded-full  h-[4rem]' />
             </div>
@@ -136,15 +140,16 @@ const Instagram = () => {
               <span className='text-xl font-semibold py-1'>Mentor Name</span>
               <span>Mentor Designation</span>
             </div>
+            <img src={instaImg} alt="" className='absolute right-[1rem] w-[2rem]'/>
           </div>
         </div>
         <div className='row-span-4 bg-[#ffffff] rounded-[10px] p-4'>
-          <div className='p-2 flex justify-start items-center bg-[#EAE0F4] w-[8rem] rounded-[10px] my-2'>
+          {/* <div className='p-2 flex justify-start items-center bg-[#EAE0F4] w-[8rem] rounded-[10px] my-2'>
             <span>Pulled from</span>
             <div>
               <img src={TwitterImg} alt='' />
             </div>
-          </div>
+          </div> */}
           <div>
             <p>
               Increasingly surprised with the breadth and quality of people at
@@ -156,7 +161,7 @@ const Instagram = () => {
             </p>
             <p className='pt-6'>11:19 · 6 Jan 2022</p>
           </div>
-          <div className=' bg-[#FFFFFF] rounded-xl flex justify-start items-center py-2'>
+          <div className=' bg-[#FFFFFF] rounded-xl flex justify-start items-center py-2 relative'>
             <div className='  h-[3rem] m-2'>
               <img src={Mentor1} alt='' className='rounded-full  h-[4rem]' />
             </div>
@@ -164,15 +169,16 @@ const Instagram = () => {
               <span className='text-xl font-semibold py-1'>Mentor Name</span>
               <span>Mentor Designation</span>
             </div>
+            <img src={instaImg} alt="" className='absolute right-[1rem] w-[2rem]'/>
           </div>
         </div>
         <div className='row-span-4 bg-[#ffffff] rounded-[10px] p-4'>
-          <div className='p-2 flex justify-start items-center bg-[#EAE0F4] w-[8rem] rounded-[10px] my-2'>
+          {/* <div className='p-2 flex justify-start items-center bg-[#EAE0F4] w-[8rem] rounded-[10px] my-2'>
             <span>Pulled from</span>
             <div>
               <img src={TwitterImg} alt='' />
             </div>
-          </div>
+          </div> */}
           <div>
             <p>
               Increasingly surprised with the breadth and quality of people at
@@ -184,7 +190,7 @@ const Instagram = () => {
             </p>
             <p className='pt-6'>11:19 · 6 Jan 2022</p>
           </div>
-          <div className=' bg-[#FFFFFF] rounded-xl flex justify-start items-center py-2'>
+          <div className=' bg-[#FFFFFF] rounded-xl flex justify-start items-center py-2 relative'>
             <div className='  h-[3rem] m-2'>
               <img src={Mentor1} alt='' className='rounded-full  h-[4rem]' />
             </div>
@@ -192,6 +198,7 @@ const Instagram = () => {
               <span className='text-xl font-semibold py-1'>Mentor Name</span>
               <span>Mentor Designation</span>
             </div>
+            <img src={instaImg} alt="" className='absolute right-[1rem] w-[2rem]'/>
           </div>
         </div>
       </div>

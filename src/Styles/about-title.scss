@@ -1,0 +1,49 @@
+.stud-title {
+ background: #15cd98;
+ width: 1135px;
+ height: 304px;
+ border-radius: 10px;
+}
+
+.one {
+ background: linear-gradient(255.1deg, #ffea97 18.26%, #ffd52e 78.35%);
+ -webkit-background-clip: text;
+ color: transparent;
+ background-clip: text;
+}
+
+.two {
+ background: linear-gradient(93.4deg, #6069d6 5.1%, #272f98 100%);
+ -webkit-background-clip: text;
+ color: transparent;
+ background-clip: text;
+}
+
+@media only screen and (max-width: 821px) {
+ .stud-title {
+   background: #15cd98;
+   width: 95%;
+   height: 604px !important;
+   border-radius: 10px;
+   // margin-left: 1rem;
+   margin: auto;
+   margin-top: 1rem;
+ }
+ .stud-acad{
+   right: 0;
+ }
+}
+
+@media only screen and (max-width: 640px) {
+ .stud-title {
+   background: #15cd98;
+   width: 90%;
+   height: 604px !important;
+   border-radius: 10px;
+   margin: auto;
+   margin-top: 1rem;
+ }
+ .stud-acad{
+   right: 0;
+ }
+}

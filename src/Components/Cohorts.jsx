@@ -5,6 +5,7 @@ import bag from '../Assets/bag.svg'
 import tropy from '../Assets/tropy.svg'
 import process3 from '../Assets/Phone -Pattern.svg'
 import '../Styles/cohorts.scss'
+import Donwload from './Download'
 
 const Cohorts = () => {
   return (
@@ -63,8 +64,9 @@ const Cohorts = () => {
             </div>
           </div>
         </div>
-        <div className='flex justify-center items-center'>
+        <div className='flex justify-center items-center relative'>
           <img src={process3} alt='' className='' />
+          <Donwload/>
         </div>
       </div>
     </>

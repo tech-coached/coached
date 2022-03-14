@@ -1,0 +1,18 @@
+.fees-wrap{
+ background: linear-gradient(102.76deg, #300273 0.46%, #7B61FF 102.41%);
+ min-height: 356px;
+}
+
+.fee-course1{
+ background: linear-gradient(94.29deg, #8A3CFC 0%, #FF9A60 100%);
+}
+
+.fee-course2{
+ background: linear-gradient(255.1deg, #15CD98 18.26%, #64EFC7 78.35%);
+}
+
+@media only screen and (max-width: 640px) {
+ .fee-val{
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+ }
+}

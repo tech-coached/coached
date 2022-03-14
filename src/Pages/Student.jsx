@@ -8,17 +8,27 @@ import Target from '../Assets/target.svg'
 import Instagram from '../Components/Instagram'
 import StudentTitle from '../Components/StudentTitle'
 import Domain from '../Components/Domain'
-import Mentor from '../Components/Mentor'
+import StudentChorts from '../Components/StudentChorts'
+import Fees from '../Components/Fees'
+import company2 from '../Assets/company2.svg'
+import company3 from '../Assets/company3.png'
+import company4 from '../Assets/company4.svg'
+import company5 from '../Assets/company5.svg'
+import company6 from '../Assets/company6.svg'
+import company7 from '../Assets/company7.svg'
+import company8 from '../Assets/company8.svg'
+import company9 from '../Assets/company9.svg'
 
 const companies = [
   Target,
-  Target,
-  Target,
-  Target,
-  Target,
-  Target,
-  Target,
-  Target,
+  company2,
+  company3,
+  company4,
+  company5,
+  company6,
+  company7,
+  company8,
+  company9,
 ]
 const slicksettings = {
   infinite: true,
@@ -35,12 +45,14 @@ const Student = () => {
       <Navbar />
       <StudentTitle />
       <Domain />
-      <Mentor />
+      <StudentChorts />
+      {/* <Mentor /> */}
       <CompaniesCarousel companies={companies} settings={slicksettings} />
       <CompaniesCarousel
         companies={companies}
         settings={{ ...slicksettings, rtl: true }}
       />
+      <Fees/>
       <FewTweet />
       <Instagram />
       <Questions />

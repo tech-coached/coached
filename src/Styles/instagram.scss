@@ -1,0 +1,30 @@
+.insta-main-wrapper{
+ background: linear-gradient(102.76deg, #6069D6 0.46%, #F74444 102.41%);
+}
+
+@media only screen and (max-width: 821px) {
+ .insta-main-wrapper{
+  padding-left: 1rem;
+  padding-right: 1rem;
+ }
+
+ .insta-wrapper{
+   grid-template-columns: repeat(1, minmax(0, 1fr));
+   padding-left: 1rem;
+   padding-right: 1rem;
+   padding-top: 1rem;
+ }
+}
+
+@media only screen and (max-width: 640px) {
+ .insta-main-wrapper{
+  padding-left: 1rem;
+  padding-right: 1rem;
+ }
+ .insta-wrapper{
+   grid-template-columns: repeat(1, minmax(0, 1fr));
+   padding-left: 1rem;
+   padding-right: 1rem;
+   padding-top: 1rem;
+ }
+}
