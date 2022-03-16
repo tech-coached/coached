@@ -29,7 +29,7 @@ const Navbar = () => {
             to='/company'
             className={location.pathname === '/company' ? 'font-bold' : ''}
           >
-            Company
+            Hire from us
           </Link>
         </div>
         <div className='flex items-center justify-center cursor-pointer'>
@@ -40,14 +40,14 @@ const Navbar = () => {
             Student
           </Link>
         </div>
-        <div className='flex items-center justify-center cursor-pointer'>
+        {/* <div className='flex items-center justify-center cursor-pointer'>
           <Link
             to='/mentors'
             className={location.pathname === '/mentors' ? 'font-bold' : ''}
           >
             Mentors
           </Link>
-        </div>
+        </div> */}
         <div className='flex items-center justify-center cursor-pointer '>
           <Link
             to='/about'
@@ -56,11 +56,15 @@ const Navbar = () => {
             About Us
           </Link>
         </div>
-        <div className='flex items-center justify-center login col-span-1 '>
+        <div className='flex items-center justify-center login col-span-2 mx-8 '>
           <div className='imageWrapper'>
             <img src={leftArrow} alt='' />
           </div>
-          <div className='pr-2 text-white' ><a href="https://docs.google.com/forms/d/1AwN6x1zMlr_362zLZlBa7nJ2fFfmS44MlIxsMCB1Gkk/edit">Login</a></div>
+          <div className='pr-4 text-white'>
+            <a href='https://docs.google.com/forms/d/e/1FAIpQLScQpviL9WdV6-d79VWqoXAaulu2dr5_6mFZkQXKNX2GqlBhzg/viewform'>
+              Surprise
+            </a>
+          </div>
         </div>
       </div>
       <div className='navIcon absolute right-[2.5rem]'>
@@ -104,7 +108,7 @@ const Navbar = () => {
               to='/company'
               className={location.pathname === '/company' ? 'font-bold' : ''}
             >
-              Company
+              Hire from us
             </Link>
           </span>
           <span className='p-2'>
@@ -115,14 +119,14 @@ const Navbar = () => {
               Students
             </Link>
           </span>
-          <span className='p-2'>
+          {/* <span className='p-2'>
             <Link
               to='/mentors'
               className={location.pathname === '/mentors' ? 'font-bold' : ''}
             >
               Mentors
             </Link>
-          </span>
+          </span> */}
           <span className='p-2'>
             <Link
               to='/about'
@@ -135,7 +139,11 @@ const Navbar = () => {
             <div className='imageWrapper'>
               <img src={leftArrow} alt='' />
             </div>
-            <div className='pr-4 text-[#ffffff]'><a href="https://docs.google.com/forms/d/1AwN6x1zMlr_362zLZlBa7nJ2fFfmS44MlIxsMCB1Gkk/edit">Login</a></div>
+            <div className='pr-4 text-[#ffffff]'>
+              <a href='https://docs.google.com/forms/d/1AwN6x1zMlr_362zLZlBa7nJ2fFfmS44MlIxsMCB1Gkk/edit'>
+                Surprise
+              </a>
+            </div>
           </div>
         </div>
       )}

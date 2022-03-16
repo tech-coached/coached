@@ -6,31 +6,39 @@ import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 import Slider from 'react-slick'
 import '../Styles/record.scss'
+import company5 from '../Assets/company5.svg'
+import company10 from '../Assets/company10.png'
+import company11 from '../Assets/company11.jpg'
+import wipro from '../Assets/wipro.jpg'
+import mentor1 from '../Assets/mentor1.png'
+import mentor2 from '../Assets/mentor2.png'
+import mentor3 from '../Assets/mentor3.png'
+import mentor4 from '../Assets/mentor4.png'
 
 const companies = [
   {
-    name: 'Mentor1',
+    name: 'Anand Rao',
     designation: 'Software Engineer',
-    company: Target,
-    profile: Mentor1,
+    company: company5,
+    profile: mentor1,
   },
   {
-    name: 'Mentor1',
+    name: 'Rohan',
     designation: 'Software Engineer',
-    company: Target,
-    profile: Mentor1,
+    company: wipro,
+    profile: mentor2,
   },
   {
-    name: 'Mentor1',
-    designation: 'Software Engineer',
-    company: Target,
-    profile: Mentor1,
+    name: 'Sidhant Gambhir',
+    designation: 'Sr Specialist ',
+    company: company10,
+    profile: mentor3,
   },
   {
-    name: 'Mentor1',
-    designation: 'Software Engineer',
-    company: Target,
-    profile: Mentor1,
+    name: 'Aditya Naik',
+    designation: 'Sr UX/UI ',
+    company: company11,
+    profile: mentor4,
   },
 ]
 
@@ -53,8 +61,8 @@ const Records = () => {
       </span>
       <div className='pt-10 pb-2 px-14 grid grid-cols-4 gap-4 records-numbers'>
         <div className='flex justify-start items-start flex-col record-num'>
-          <span className='text-[#BF0808] font-bold text-3xl pb-4'>600+</span>{' '}
-          <span className=' font-bold text-2xl'>Paid Users</span>
+          <span className='text-[#BF0808] font-bold text-3xl pb-4'>1200+</span>{' '}
+          <span className=' font-bold text-2xl'>Enrolled Students</span>
         </div>
         <div className='flex justify-start items-start flex-col record-num'>
           <span className='text-[#BF0808] font-bold text-3xl pb-4'>20LPA</span>{' '}
@@ -92,15 +100,15 @@ const Records = () => {
                   key={index}
                 >
                   <div className=' m-4'>
-                    <img src={Mentor1} alt='' className='rounded-full' />
+                    <img src={item.profile} alt='' className='rounded-full' />
                   </div>
                   <div className='flex justify-center items-start flex-col pl-4'>
                     <span className='text-xl font-semibold py-2'>
-                      Mentor Name
+                      {item.name}
                     </span>
-                    <span>Mentor Designation</span>
+                    <span>{item.designation}</span>
                     <div>
-                      <img src={Target} alt='' />
+                      <img src={item.company} alt='' />
                     </div>
                   </div>
                 </div>

@@ -123,11 +123,11 @@ const Domain = () => {
         </div>
       </div>
       <div className='pt-10'>
-        <div className='domain-subjects'>
+        {/* <div className='domain-subjects'>
          <span className='text-xl  font-semibold'> If you have that grit and determination to become the best,{' '}</span>
           <span className='text-xl font-bold text-[red]'>Join us!</span>
-        </div>
-        <div className=' grid grid-cols-2 gap-10 pt-10 mb-10 domain-subjects-wrapper'>
+        </div> */}
+        {/* <div className=' grid grid-cols-2 gap-10 pt-10 mb-10 domain-subjects-wrapper'>
           {domain.map((item, index) => {
             return (
               <div
@@ -155,10 +155,10 @@ const Domain = () => {
               </div>
             )
           })}
-        </div>
+        </div> */}
       </div>
       <div className='student-process'>
-      <span className='text-3xl font-semibold mx-14 text-center ' >If you have that grit and determination to become the best, Join us!</span>
+      <span className='text-3xl font-semibold mx-14 text-center pl-[0]' >If you have that grit and determination to become the best,<span className='text-3xl font-bold text-[red]'>Join us!</span></span>
       <img src={ student8} alt="" className='stud-pocesss-main pt-10'/>
       <img src={ student9} alt="" className='stud-pocesss-sub pt-10'/>
       </div>

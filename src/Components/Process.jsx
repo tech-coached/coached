@@ -26,9 +26,9 @@ const Process = () => {
             </span>
           </span>
           <span className='text-3xl font-bold mt-4 mb-4'>
-            Take an assessment with us
+            Download the Andriod App
           </span>
-          <span>Take an assessment with us</span>
+          <span>Download the App to start the journey with us</span>
         </div>
         <div className='start col-span-2'>
           <div className='imageWrapper'>

@@ -4,6 +4,8 @@ import star from '../Assets/greentstar.svg'
 import leftArrow from '../Assets/leftArrow.svg'
 import experience1 from '../Assets/experience1.svg'
 import experience2 from '../Assets/experience2.svg'
+import { Link } from 'react-router-dom'
+
 const Experience = () => {
   return (
     <>
@@ -75,12 +77,14 @@ const Experience = () => {
                 </span>
               </div>
             </div>
-            <div className='button'>
-              <div className='imageWrapper'>
-                <img src={leftArrow} alt='' />
+            <Link to='/students'>
+              <div className='button'>
+                <div className='imageWrapper'>
+                  <img src={leftArrow} alt='' />
+                </div>
+                <div> Explore</div>
               </div>
-              <div>Explore</div>
-            </div>
+            </Link>
           </div>
         </div>
         <div className='company col-span-5 relative'>
@@ -135,12 +139,14 @@ const Experience = () => {
                 </span>
               </div>
             </div>
-            <div className='button'>
-              <div className='imageWrapper'>
-                <img src={leftArrow} alt='' />
+            <Link to='/company'>
+              <div className='button'>
+                <div className='imageWrapper'>
+                  <img src={leftArrow} alt='' />
+                </div>
+                <div> Explore</div>
               </div>
-              <div>Explore</div>
-            </div>
+            </Link>
           </div>
         </div>
       </div>
