@@ -198,6 +198,8 @@
     flex-direction: column;
     .step-two-steps {
       width: 100%;
+      height: max-content;
+      padding-bottom: 3rem;
       .process-part2-1 {
         width: 60%;
         right: -1rem;

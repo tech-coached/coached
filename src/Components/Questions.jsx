@@ -5,16 +5,28 @@ import '../Styles/questions.scss'
 
 const question = [
   {
-    que: 'What roles can I hire CoachEd Drifters for?',
-    ans: ' To save a draft of your Tweet, click the X icon in the top left corner of the compose box, then click Save. To schedule your Tweet to be sent at a later date/time, click on the calendar icon at the bottom of the compose box and make your schedule selections, then click Confirm. To access your drafts and scheduled Tweets, click on Unsent Tweets from the Tweet compose box.',
+    que: 'What CoachEd is for?',
+    ans: 'CoachEd is here to make you the ultimate best and irreplaceable across the Industry. We do this by providing industry-driven best cohort-based training and mentorship on  market-relevant high leverage skills and mapping you to startups and companies in various fields.',
   },
   {
-    que: 'What roles can I hire CoachEd Drifters for?',
-    ans: ' To save a draft of your Tweet, click the X icon in the top left corner of the compose box, then click Save. To schedule your Tweet to be sent at a later date/time, click on the calendar icon at the bottom of the compose box and make your schedule selections, then click Confirm. To access your drafts and scheduled Tweets, click on Unsent Tweets from the Tweet compose box.',
+    que: 'What kind of mentorship am I getting into?',
+    ans: 'Our Industry Chiefs would be assisting you at every point of your journey. Along with our Industry driven cohort-based training, you would be supported and assisted with 1:1 sessions with your mentors to help you grow tremendously.',
   },
   {
-    que: 'What roles can I hire CoachEd Drifters for?',
-    ans: ' To save a draft of your Tweet, click the X icon in the top left corner of the compose box, then click Save. To schedule your Tweet to be sent at a later date/time, click on the calendar icon at the bottom of the compose box and make your schedule selections, then click Confirm. To access your drafts and scheduled Tweets, click on Unsent Tweets from the Tweet compose box.',
+    que: 'How do I access the CoachEd Kingdom?',
+    ans: ' As you have decided to give wings to your career, we would see you at the top soon. The process is fairly simple. At the comfort of your home, take an assessment test that would help us to know you better, and accordingly, you can join our exclusive cohorts tosupercharge your career in less than 10 weeks. Welcome to CoachEd kingdom!!',
+  },
+  {
+    que: 'Who else hires from CoachEd?',
+    ans: 'Our Warriors have made a loud commotion across the Industry through their talent and skills. They have been referred successfully by our CoachEd Mentors in companies like Synopsys, PwC, Wipro, Stonex, and more. Not only this, but we got a large pool of hiring partners and have placed our well-trained and highly skilled warriors in companies like Thoughtwiz, Oska, Karkhana, Roado, and many more.',
+  },
+  {
+    que: 'Why CoachEd warriors?',
+    ans: 'Our super talented and highly skilled drifters are all prepared to win the corporate world. They are well trained and would resonate well with your company’s culture and mission. They would soothe your soul by maximizing your company’s growth and profit levels to crazy levels.',
+  },
+  {
+    que: 'Why should I hire from CoachEd?',
+    ans: 'If you are looking for Talented and highly skilled individuals that can grow your organization at crazy levels then CoachEd can be your only stop. We cut the cumbersome hiring and talent hunt procedure for you by channelizing our well-trained individuals directly to your organization.',
   },
 ]
 

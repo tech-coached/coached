@@ -41,7 +41,7 @@ const Founders = () => {
           <span>CEO</span>
         </div>
       </div>
-      <span className='text-3xl font-bold py-6'>We are recognized by</span>
+      {/* <span className='text-3xl font-bold py-6'>We are recognized by</span> */}
     </div>
   )
 }

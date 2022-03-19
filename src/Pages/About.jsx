@@ -8,11 +8,11 @@ import Navbar from '../Components/Navbar'
 const About = () => {
   return (
     <div>
-     <Navbar/>
-     <AboutTitle/>
-     <AboutIntro/>
-     <Founders/>
-     <Footer/>
+      <Navbar />
+      <AboutTitle />
+      <AboutIntro />
+      <Founders />
+      <Footer />
     </div>
   )
 }
