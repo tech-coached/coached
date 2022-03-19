@@ -3,6 +3,7 @@ import founder1 from '../Assets/founder1.svg'
 import founder2 from '../Assets/founder2.svg'
 import founder3 from '../Assets/founder3.svg'
 import founder4 from '../Assets/founder4.svg'
+import linkedin from '../Assets/linkedinprofile.svg'
 import '../Styles/founders.scss'
 
 const Founders = () => {
@@ -12,33 +13,61 @@ const Founders = () => {
         Career War Chiefs at CoachEd
       </span>
       <div className='grid grid-cols-4 gap-4 py-10 founder-wrap'>
-        <div className='flex justify-start items-center flex-col'>
+        <div
+          className='flex justify-start items-center flex-col relative'
+          onClick={() =>
+            (window.location.href =
+              'https://www.linkedin.com/in/poornanand-kulkarni/')
+          }
+        >
+          <img
+            src={linkedin}
+            alt=''
+            className='absolute top-[50%] left-[50%]'
+          />
           <div className='founder'>
             <img src={founder1} alt='' />
           </div>
           <span className='font-bold'>Poornanand Kulkarni</span>
           <span>CEO</span>
         </div>
-        <div className='flex justify-start items-center flex-col'>
+        <div
+          className='flex justify-start items-center flex-col'
+          onClick={() =>
+            (window.location.href = 'https://www.linkedin.com/in/anikethanhvu/')
+          }
+        >
           <div className='founder'>
             <img src={founder2} alt='' />
           </div>
-          <span className='font-bold'>Poornanand Kulkarni</span>
-          <span>CEO</span>
+          <span className='font-bold'>Anikethan H V</span>
+          <span>COO</span>
         </div>
-        <div className='flex justify-start items-center flex-col'>
+        <div
+          className='flex justify-start items-center flex-col'
+          onClick={() =>
+            (window.location.href =
+              'https://www.linkedin.com/in/aishwarya-puranik/')
+          }
+        >
           <div className='founder'>
             <img src={founder3} alt='' />
           </div>
-          <span className='font-bold'>Poornanand Kulkarni</span>
-          <span>CEO</span>
+          <span className='font-bold'>Aishwarya Puranik </span>
+          <span>CDO</span>
         </div>
-        <div className='flex justify-start items-center flex-col'>
+        <div
+          className='flex justify-start items-center flex-col'
+          onClick={() =>
+            (window.location.href =
+              'https://www.linkedin.com/in/poornanand-kulkarni/')
+          }
+        >
           <div className='founder'>
             <img src={founder4} alt='' />
           </div>
-          <span className='font-bold'>Poornanand Kulkarni</span>
-          <span>CEO</span>
+          <span className='font-bold'>Kaveri Bhadrannawar </span>
+          <span>HR</span>
         </div>
       </div>
       {/* <span className='text-3xl font-bold py-6'>We are recognized by</span> */}

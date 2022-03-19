@@ -1,43 +1,43 @@
 import React from 'react'
 import bgImage from '../Assets/bg-records.svg'
-import Target from '../Assets/target.svg'
-import Mentor1 from '../Assets/mentor1.svg'
+// import Target from '../Assets/target.svg'
+// import Mentor1 from '../Assets/mentor1.svg'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 import Slider from 'react-slick'
 import '../Styles/record.scss'
-import company5 from '../Assets/company5.svg'
-import company10 from '../Assets/company10.png'
-import company11 from '../Assets/company11.jpg'
-import wipro from '../Assets/wipro.jpg'
-import mentor1 from '../Assets/mentor1.png'
-import mentor2 from '../Assets/mentor2.png'
-import mentor3 from '../Assets/mentor3.png'
-import mentor4 from '../Assets/mentor4.png'
+import company1 from '../Assets/company-logo1.svg'
+import company2 from '../Assets/company-logo2.svg'
+import company3 from '../Assets/company-logo3.svg'
+import company4 from '../Assets/company-logo4.svg'
+import mentor1 from '../Assets/mentor1.svg'
+import mentor2 from '../Assets/mentor2.svg'
+import mentor3 from '../Assets/mentor3.svg'
+import mentor4 from '../Assets/mentor4.svg'
 
 const companies = [
   {
     name: 'Anand Rao',
     designation: 'Software Engineer',
-    company: company5,
+    company: company1,
     profile: mentor1,
   },
   {
-    name: 'Rohan',
-    designation: 'Software Engineer',
-    company: wipro,
+    name: 'Siddhant Gambhir ',
+    designation: 'Sr Specialist - Evaluation & Testing',
+    company: company2,
     profile: mentor2,
   },
   {
-    name: 'Sidhant Gambhir',
-    designation: 'Sr Specialist ',
-    company: company10,
+    name: 'Rohan Nagarad',
+    designation: 'Senior Software Engineer',
+    company: company3,
     profile: mentor3,
   },
   {
     name: 'Aditya Naik',
-    designation: 'Sr UX/UI ',
-    company: company11,
+    designation: 'UX/UI Design Consultant ',
+    company: company4,
     profile: mentor4,
   },
 ]
@@ -47,7 +47,7 @@ const settings = {
   slidesToShow: 1,
   slidesToScroll: 1,
   autoplay: true,
-  autoplaySpeed: 9000,
+  autoplaySpeed: 1000,
   dots: false,
   arrows: false,
   fade: true,

@@ -3,9 +3,9 @@ import '../Styles/tweets.scss'
 import '../Styles/instagram.scss'
 // import Mentor1 from '../Assets/mentor1.svg'
 // import instaImg from '../Assets/insta-icon.svg'
-import TweetImg from '../Assets/tweetImg.svg'
-import TweetImg1 from '../Assets/tweetImg1.svg'
-import TweetImg2 from '../Assets/tweetImg2.svg'
+import TweetImg from '../Assets/insta1.jpg'
+import TweetImg1 from '../Assets/insta5.jpg'
+import TweetImg2 from '../Assets/insta3.jpg'
 const Instagram = () => {
   return (
     <div className='w-full tweets px-14 py-10 insta-main-wrapper'>
