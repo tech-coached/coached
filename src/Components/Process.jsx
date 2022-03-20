@@ -34,7 +34,9 @@ const Process = () => {
           <div className='imageWrapper'>
             <img src={leftArrow} alt='' />
           </div>
-          <div>START</div>
+          <a href='https://play.google.com/store/apps/details?id=co.edvin.iyclg'>
+            <div>START</div>
+          </a>
         </div>
         <img
           src={ladylaptop}
@@ -101,12 +103,12 @@ const Process = () => {
                   <span className='text-base'>Devops and more!</span>
                 </div>
               </div>
-              <div className='explore'>
+              {/* <div className='explore'>
                 <div className='imageWrapper'>
                   <img src={leftArrow} alt='' />
                 </div>
                 <div>Explore</div>
-              </div>
+              </div> */}
             </div>
             <div className='step-two-steps p-6 relative'>
               <img
@@ -143,12 +145,12 @@ const Process = () => {
                   <span className='text-base'>Management</span>
                 </div>
               </div>
-              <div className='explore'>
+              {/* <div className='explore'>
                 <div className='imageWrapper'>
                   <img src={leftArrow} alt='' />
                 </div>
                 <div>Explore</div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

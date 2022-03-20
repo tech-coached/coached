@@ -47,7 +47,7 @@ const settings = {
   slidesToShow: 1,
   slidesToScroll: 1,
   autoplay: true,
-  autoplaySpeed: 1000,
+  autoplaySpeed: 5000,
   dots: false,
   arrows: false,
   fade: true,
@@ -55,7 +55,7 @@ const settings = {
 
 const Records = () => {
   return (
-    <div className='pt-14'>
+    <div className='pt-14 record-top-wrap'>
       <span className='text-3xl font-bold pl-14 records-title'>
         In 2021, we have gone beyond and above to serve our students
       </span>

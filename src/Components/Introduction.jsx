@@ -42,7 +42,12 @@ const Introduction = () => {
           <div className='imageWrapper'>
             <img src={leftArrow} alt='' />
           </div>
-          <div>FIND OUT MORE</div>
+          <a
+            href='https://play.google.com/store/apps/details?id=co.edvin.iyclg'
+            className='flex justify-start items-center'
+          >
+            <div className='text-white'>FIND OUT MORE</div>
+          </a>
         </div>
         <div className='students mt-6 text-3xl'>
           <span className='font-bold text-2xl'>Curated</span> by the industry,{' '}

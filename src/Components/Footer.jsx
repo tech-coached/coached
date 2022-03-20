@@ -41,39 +41,48 @@ const Footer = () => {
             <div className='imageWrapper'>
               <img src={leftArrow} alt='' />
             </div>
-            <div>FIND OUT MORE</div>
+            <a
+              href='https://play.google.com/store/apps/details?id=co.edvin.iyclg'
+              className='flex justify-start items-center'
+            >
+              <div className='text-[white]'>FIND OUT MORE</div>
+            </a>
           </div>
         </div>
         <div className='col-span-2 grid  grid-rows-5'>
-          <div className='flex justify-center items-center social-icons'>
-            <img src={linkedinIcon} alt='' />
-
-            <span className='pl-4 pt-1 footer-social'>Linkedin</span>
-          </div>
+          <a href='https://www.linkedin.com/company/coached-in/'>
+            <div className='flex justify-center items-center social-icons'>
+              <img src={linkedinIcon} alt='' />
+              <span className='pl-4 pt-1 footer-social'>Linkedin</span>
+            </div>
+          </a>
           <div className='flex justify-center items-center social-icons'>
             <img src={fbIcon} alt='' />
-
             <span className='pl-4 pt-1 footer-social'>Facebook</span>
           </div>
-          <div className='flex justify-center items-center social-icons'>
-            <img src={Twittericon} alt='' />
-
-            <span className='pl-4 pt-1 footer-social'>Twitter</span>
-          </div>
-          <div className='flex justify-center items-center social-icons'>
-            <img src={instaIcon} alt='' />
-
-            <span className='pl-4 pt-1 footer-social'>Instagram</span>
-          </div>
+          <a href='https://twitter.com/CoachEd_2020'>
+            <div className='flex justify-center items-center social-icons'>
+              <img src={Twittericon} alt='' />
+              <span className='pl-4 pt-1 footer-social'>Twitter</span>
+            </div>
+          </a>
+          <a href='https://www.linkedin.com/company/coached-in/'>
+            <div className='flex justify-center items-center social-icons'>
+              <img src={instaIcon} alt='' />
+              <span className='pl-4 pt-1 footer-social'>Instagram</span>
+            </div>
+          </a>
         </div>
       </div>
       <div className='bg-[#ffffff] px-14 flex justify-between items-center relative footer-download-wrapper pt-2'>
         <span className='font-bold w-[20rem]'>Made with love @ CoachEd</span>
-        <div className='flex justify-center items-center'>
-          <span className='font-bold w-[15rem]'>Download the app from</span>
-          <img src={playstore} alt='' />
-          <img src={apple} alt='' className='ml-4' />
-        </div>
+        <a href='https://play.google.com/store/apps/details?id=co.edvin.iyclg'>
+          <div className='flex justify-center items-center'>
+            <span className='font-bold w-[15rem]'>Download the app from</span>
+            <img src={playstore} alt='' />
+            <img src={apple} alt='' className='ml-4' />
+          </div>
+        </a>
       </div>
     </div>
   )

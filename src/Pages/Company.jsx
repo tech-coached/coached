@@ -14,7 +14,8 @@ import company5 from '../Assets/company5.svg'
 import company6 from '../Assets/company6.svg'
 import company7 from '../Assets/company7.svg'
 import company8 from '../Assets/company8.svg'
-import company9 from '../Assets/company9.svg'
+import company9 from '../Assets/company5.svg'
+import ScrollToTop from '../Components/ScrollToTop'
 
 const companies1 = [
   Target,
@@ -39,6 +40,7 @@ const slicksettings = {
 const Company = () => {
   return (
     <div>
+      <ScrollToTop />
       <Navbar />
       <Title />
       <CompanyCard />

@@ -80,13 +80,13 @@ const Warrior = () => {
           <div>Fast paced </div>
         </div>
       </div>
-      <div className='h-[80px] bg-[#ffffff] mx-14 rounded-[10px] relative flex justify-between items-center mb-10 border-[#FFD52E] border-[1px] my-10 warrior-mail'>
+      <div className='h-[80px] bg-[#ffffff] mx-14 rounded-[10px] relative flex justify-between items-center mb-10 border-[#FFD52E] border-[1px] my-10 warrior-mail py-4'>
         <img
           src={warrior4}
           alt=''
           className='absolute rounded-[10px] left-[0rem]'
         />
-        <span className='font-bold pl-20 text-[#000000]'>
+        <span className='font-bold pl-20 text-[#000000] pt-2'>
           Hire from us today!
         </span>
         <div className='mail col-span-2 w-[22rem] text-[#ffffff]'>

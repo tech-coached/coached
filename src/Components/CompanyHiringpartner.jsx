@@ -17,7 +17,7 @@ const Companyhiringpartner = () => {
         }}
       >
         <div className='textWrapper'>
-          <div className='hiring-partner-title'>
+          <div className='hiring-partner-title pb-4'>
             <span className='text-3xl  mt-4 mb-4'>You win with CoachEd</span>
             <span className='text-3xl font-bold mt-4 mb-4'>
               {' '}
@@ -39,12 +39,12 @@ const Companyhiringpartner = () => {
                 </span>
               </div>
 
-              <div className='explore'>
+              {/* <div className='explore'>
                 <div className='imageWrapper'>
                   <img src={leftArrow} alt='' />
                 </div>
                 <div>Explore</div>
-              </div>
+              </div> */}
             </div>
             <div className='step-two-steps p-6 relative'>
               <img
@@ -61,12 +61,12 @@ const Companyhiringpartner = () => {
                 </span>
               </div>
 
-              <div className='explore'>
+              {/* <div className='explore'>
                 <div className='imageWrapper'>
                   <img src={leftArrow} alt='' />
                 </div>
                 <div>Explore</div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
