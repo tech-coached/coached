@@ -65,8 +65,8 @@ const Cohorts = () => {
           </div>
         </div>
         <div className='flex justify-center items-center relative'>
-          <img src={process3} alt='' className='' />
-          <Donwload/>
+          <img src={process3} alt='' className='mb-14' />
+          <Donwload />
         </div>
       </div>
     </>
