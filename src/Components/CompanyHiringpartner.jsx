@@ -77,12 +77,18 @@ const Companyhiringpartner = () => {
         <span className='font-bold pl-20 text-[#000000]'>
           8 day turnaround guaranteed
         </span>
-        <div className='mail col-span-2 w-[22rem] text-[#ffffff]'>
-          <div className='imageWrapper'>
-            <img src={leftArrow} alt='' />
+        <a
+          href='https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=hello@coached.co.in'
+          target='_blank'
+          rel='noreferrer'
+        >
+          <div className='mail col-span-2 w-[22rem] text-[#ffffff]'>
+            <div className='imageWrapper'>
+              <img src={leftArrow} alt='' />
+            </div>
+            <div>Mail us today at hello@coached.co.in </div>
           </div>
-          <div>Mail us today at hello@coached.co.in </div>
-        </div>
+        </a>
       </div>
     </>
   )
