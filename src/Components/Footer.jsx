@@ -2,7 +2,7 @@ import React from 'react'
 import logo from '../Assets/logo.svg'
 import leftArrow from '../Assets/leftArrow.svg'
 import linkedinIcon from '../Assets/linkedinIcon.svg'
-import fbIcon from '../Assets/fbIcon.svg'
+// import fbIcon from '../Assets/fbIcon.svg'
 import Twittericon from '../Assets/Twittericon.svg'
 import instaIcon from '../Assets/instaIcon.svg'
 import playstore from '../Assets/playstore.svg'
@@ -56,17 +56,17 @@ const Footer = () => {
               <span className='pl-4 pt-1 footer-social'>Linkedin</span>
             </div>
           </a>
-          <div className='flex justify-center items-center social-icons'>
+          {/* <div className='flex justify-center items-center social-icons'>
             <img src={fbIcon} alt='' />
             <span className='pl-4 pt-1 footer-social'>Facebook</span>
-          </div>
+          </div> */}
           <a href='https://twitter.com/CoachEd_2020'>
             <div className='flex justify-center items-center social-icons'>
               <img src={Twittericon} alt='' />
               <span className='pl-4 pt-1 footer-social'>Twitter</span>
             </div>
           </a>
-          <a href='https://www.linkedin.com/company/coached-in/'>
+          <a href='https://twitter.com/CoachEd_2020'>
             <div className='flex justify-center items-center social-icons'>
               <img src={instaIcon} alt='' />
               <span className='pl-4 pt-1 footer-social'>Instagram</span>
