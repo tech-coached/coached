@@ -26,7 +26,7 @@ const Process = () => {
             </span>
           </span>
           <span className='text-3xl font-bold mt-4 mb-4'>
-            Download the Andriod App
+            Download the Android App
           </span>
           <span>Download the App to start the journey with us</span>
         </div>

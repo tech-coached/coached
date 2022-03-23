@@ -76,7 +76,7 @@ const Founders = () => {
             />
           </div>
           <span className='font-bold py-2'>Aishwarya Puranik </span>
-          <span>CDO</span>
+          <span>CTO</span>
         </div>
         <div
           className='flex justify-start items-center flex-col'
