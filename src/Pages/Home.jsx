@@ -1,14 +1,5 @@
-import React from 'react'
-import Introduction from '../Components/Introduction'
-import Navbar from '../Components/Navbar'
-import CompaniesCarousel from '../Components/CompaniesCarousel'
+import React, { Suspense } from 'react'
 import Target from '../Assets/target.svg'
-import Process from '../Components/Process'
-import Cohorts from '../Components/Cohorts'
-import Experience from '../Components/Experience'
-import Records from '../Components/Records'
-import Tweets from '../Components/Tweets'
-import Footer from '../Components/Footer'
 import company2 from '../Assets/company2.svg'
 import company3 from '../Assets/company3.png'
 import company4 from '../Assets/company4.svg'
@@ -18,6 +9,18 @@ import company7 from '../Assets/company7.svg'
 import company8 from '../Assets/company8.svg'
 import company9 from '../Assets/company5.svg'
 import ScrollToTop from '../Components/ScrollToTop'
+import Loader from '../Components/Loader'
+const Introduction = React.lazy(() => import('../Components/Introduction'))
+const Navbar = React.lazy(() => import('../Components/Navbar'))
+const CompaniesCarousel = React.lazy(() =>
+  import('../Components/CompaniesCarousel')
+)
+const Process = React.lazy(() => import('../Components/Process'))
+const Cohorts = React.lazy(() => import('../Components/Cohorts'))
+const Experience = React.lazy(() => import('../Components/Experience'))
+const Records = React.lazy(() => import('../Components/Records'))
+const Tweets = React.lazy(() => import('../Components/Tweets'))
+const Footer = React.lazy(() => import('../Components/Footer'))
 
 const companies = [
   Target,
@@ -42,20 +45,22 @@ const slicksettings = {
 const Home = () => {
   return (
     <div className='w-[100%]'>
-      <ScrollToTop />
-      <Navbar />
-      <Introduction />
-      <CompaniesCarousel companies={companies} settings={slicksettings} />
-      <CompaniesCarousel
-        companies={companies}
-        settings={{ ...slicksettings, rtl: true }}
-      />
-      <Process />
-      <Cohorts />
-      <Experience />
-      <Records />
-      <Tweets />
-      <Footer />
+      <Suspense fallback={<Loader />}>
+        <ScrollToTop />
+        <Navbar />
+        <Introduction />
+        <CompaniesCarousel companies={companies} settings={slicksettings} />
+        <CompaniesCarousel
+          companies={companies}
+          settings={{ ...slicksettings, rtl: true }}
+        />
+        <Process />
+        <Cohorts />
+        <Experience />
+        <Records />
+        <Tweets />
+        <Footer />
+      </Suspense>
     </div>
   )
 }

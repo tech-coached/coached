@@ -32,7 +32,7 @@ const Fees = () => {
       </div>
       <span className='font-bold text-2xl text-[#ffffff]'>Cohort Showcase</span>
       <div className='grid grid-cols-12 gap-6 py-10'>
-        <div className='col-span-6 h-[184px] fee-course1 rounded-[10px] p-4'>
+        <div className='col-span-6 h-[184px] fee-course1 rounded-[10px] p-4 relative'>
           <span className='font-bold text-2xl text-[white]'>
             Software Engineering
           </span>
@@ -55,10 +55,10 @@ const Fees = () => {
           <img
             src={speaker1}
             alt=''
-            className='absolute right-[1rem] bottom-[.5rem] z-50'
+            className='absolute right-[1rem] bottom-[0rem] z-50'
           />
         </div>
-        <div className='col-span-6 h-[184px] fee-course2 rounded-[10px] p-4'>
+        <div className='col-span-6 h-[184px] fee-course2 rounded-[10px] p-4 relative'>
           <span className='font-bold text-2xl  text-[white]'>
             VLSI and Embedded Systems
           </span>
@@ -81,7 +81,7 @@ const Fees = () => {
           <img
             src={speaker2}
             alt=''
-            className='absolute right-[1rem] bottom-[.5rem] z-50'
+            className='absolute right-[1rem] bottom-[0rem] z-50'
           />
         </div>
       </div>

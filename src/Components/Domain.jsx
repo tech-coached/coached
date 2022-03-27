@@ -1,5 +1,5 @@
 import React from 'react'
-import star from '../Assets/greentstar.svg'
+// import star from '../Assets/greentstar.svg'
 import student2 from '../Assets/student2.svg'
 import student3 from '../Assets/student3.svg'
 import student4 from '../Assets/student4.svg'
@@ -8,36 +8,38 @@ import student6 from '../Assets/student6.svg'
 import student7 from '../Assets/student7.svg'
 import student8 from '../Assets/stud-process.svg'
 import student9 from '../Assets/stud-process2.svg'
-import "../Styles/domain.scss"
+import '../Styles/domain.scss'
 
-const domain = [
-  {
-    name: 'Software Domain',
-    skills: ['Programming Fundamentals', 'Full Stack', 'Front end', 'Back end'],
-  },
-  {
-    name: 'Software Domain',
-    skills: ['Programming Fundamentals', 'Full Stack', 'Front end', 'Back end'],
-  },
-  {
-    name: 'Software Domain',
-    skills: ['Programming Fundamentals', 'Full Stack', 'Front end', 'Back end'],
-  },
-  {
-    name: 'Software Domain',
-    skills: ['Programming Fundamentals', 'Full Stack', 'Front end', 'Back end'],
-  },
-]
+// const domain = [
+//   {
+//     name: 'Software Domain',
+//     skills: ['Programming Fundamentals', 'Full Stack', 'Front end', 'Back end'],
+//   },
+//   {
+//     name: 'Software Domain',
+//     skills: ['Programming Fundamentals', 'Full Stack', 'Front end', 'Back end'],
+//   },
+//   {
+//     name: 'Software Domain',
+//     skills: ['Programming Fundamentals', 'Full Stack', 'Front end', 'Back end'],
+//   },
+//   {
+//     name: 'Software Domain',
+//     skills: ['Programming Fundamentals', 'Full Stack', 'Front end', 'Back end'],
+//   },
+// ]
 
 const Domain = () => {
   return (
     <div className='pb-10 px-14 domain-main-wrapper'>
       <div className='pt-10'>
         <div className='domain-title'>
-          <span  className='text-xl  font-semibold'> A training program for you to{' '}</span>
-          <span className='font-bold text-xl'>master skills</span> 
-          <span className='text-xl  font-semibold'>that would
-          win you{' '}</span>
+          <span className='text-xl  font-semibold'>
+            {' '}
+            A training program for you to{' '}
+          </span>
+          <span className='font-bold text-xl'>master skills</span>
+          <span className='text-xl  font-semibold'>that would win you </span>
           <span className='font-bold text-xl'>ultimate career wars!</span>
         </div>
         <div className=' grid grid-cols-3 gap-10 pt-10 mb-10 domain-grid-wrapper'>
@@ -158,9 +160,12 @@ const Domain = () => {
         </div> */}
       </div>
       <div className='student-process'>
-      <span className='text-3xl font-semibold mx-14 text-center pl-[0]' >If you have that grit and determination to become the best,<span className='text-3xl font-bold text-[red]'>Join us!</span></span>
-      <img src={ student8} alt="" className='stud-pocesss-main pt-10'/>
-      <img src={ student9} alt="" className='stud-pocesss-sub pt-10'/>
+        <span className='text-3xl font-semibold mx-14 text-center pl-[0]'>
+          If you have that grit and determination to become the best,
+          <span className='text-3xl font-bold text-[red]'>Join us!</span>
+        </span>
+        <img src={student8} alt='' className='stud-pocesss-main pt-10' />
+        <img src={student9} alt='' className='stud-pocesss-sub pt-10' />
       </div>
     </div>
   )

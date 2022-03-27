@@ -1,12 +1,6 @@
-import React from 'react'
-import CompanyCard from '../Components/CompanyCard'
-import Navbar from '../Components/Navbar'
-import Title from '../Components/Title'
-import CompaniesCarousel from '../Components/CompaniesCarousel'
+import React, { Suspense } from 'react'
+import Loader from '../Components/Loader'
 import Target from '../Assets/target.svg'
-import CompanyHiringpartner from '../Components/CompanyHiringpartner'
-import Footer from '../Components/Footer'
-import Warrior from '../Components/Warrior'
 import company2 from '../Assets/company2.svg'
 import company3 from '../Assets/company3.png'
 import company4 from '../Assets/company4.svg'
@@ -16,6 +10,17 @@ import company7 from '../Assets/company7.svg'
 import company8 from '../Assets/company8.svg'
 import company9 from '../Assets/company5.svg'
 import ScrollToTop from '../Components/ScrollToTop'
+const Navbar = React.lazy(() => import('../Components/Navbar'))
+const CompanyCard = React.lazy(() => import('../Components/CompanyCard'))
+const Title = React.lazy(() => import('../Components/Title'))
+const CompaniesCarousel = React.lazy(() =>
+  import('../Components/CompaniesCarousel')
+)
+const CompanyHiringpartner = React.lazy(() =>
+  import('../Components/CompanyHiringpartner')
+)
+const Footer = React.lazy(() => import('../Components/Footer'))
+const Warrior = React.lazy(() => import('../Components/Warrior'))
 
 const companies1 = [
   Target,
@@ -40,18 +45,20 @@ const slicksettings = {
 const Company = () => {
   return (
     <div>
-      <ScrollToTop />
-      <Navbar />
-      <Title />
-      <CompanyCard />
-      <CompaniesCarousel companies={companies1} settings={slicksettings} />
-      <CompaniesCarousel
-        companies={companies1}
-        settings={{ ...slicksettings, rtl: true }}
-      />
-      <CompanyHiringpartner />
-      <Warrior />
-      <Footer />
+      <Suspense fallback={<Loader />}>
+        <ScrollToTop />
+        <Navbar />
+        <Title />
+        <CompanyCard />
+        <CompaniesCarousel companies={companies1} settings={slicksettings} />
+        <CompaniesCarousel
+          companies={companies1}
+          settings={{ ...slicksettings, rtl: true }}
+        />
+        <CompanyHiringpartner />
+        <Warrior />
+        <Footer />
+      </Suspense>
     </div>
   )
 }
