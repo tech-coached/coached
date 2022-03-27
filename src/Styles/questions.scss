@@ -14,6 +14,10 @@
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
   .question-arrow1 {
-    top: 3rem;
+    top: 1.5rem;
+  }
+
+  .question-question {
+    margin-right: 1rem;
   }
 }

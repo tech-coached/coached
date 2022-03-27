@@ -46,10 +46,10 @@ const Questions = () => {
         {question.map((item, index) => {
           return (
             <div
-              className='row-span-3 bg-[#ffffff] rounded-[10px] p-4 shadow-[0px_4px_8px_#F3F3F3] relative'
+              className='row-span-3 bg-[#ffffff] rounded-[10px] p-4 shadow-[0px_4px_8px_#F3F3F3] relative w-[100%]'
               key={index}
             >
-              <span className='font-bold'>{item.que}</span>
+              <span className='font-bold question-question'>{item.que}</span>
               {state[index] && (
                 <img
                   src={top}
