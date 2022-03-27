@@ -9,11 +9,11 @@ import '../Styles/record.scss'
 import company1 from '../Assets/company-logo1.svg'
 import company2 from '../Assets/company-logo2.svg'
 import company3 from '../Assets/company-logo3.svg'
-import company4 from '../Assets/company-logo4.svg'
+// import company4 from '../Assets/company-logo4.svg'
 import mentor1 from '../Assets/mentor1.svg'
 import mentor2 from '../Assets/mentor2.svg'
 import mentor3 from '../Assets/mentor3.svg'
-import mentor4 from '../Assets/mentor4.svg'
+// import mentor4 from '../Assets/mentor4.svg'
 
 const companies = [
   {
@@ -34,12 +34,12 @@ const companies = [
     company: company3,
     profile: mentor3,
   },
-  {
-    name: 'Aditya Naik',
-    designation: 'UX/UI Design Consultant ',
-    company: company4,
-    profile: mentor4,
-  },
+  // {
+  //   name: 'Aditya Naik',
+  //   designation: 'UX/UI Design Consultant ',
+  //   company: company4,
+  //   profile: mentor4,
+  // },
 ]
 
 const settings = {
