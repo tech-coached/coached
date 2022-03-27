@@ -23,8 +23,8 @@ const Introduction = () => {
               An upskilling platform that assesses the{' '}
               <span className='font-bold'>candidate's current skills</span> and
               identifies an attainable{' '}
-              <span className='font-bold'>target job</span>. We then provide
-              <span className='font-bold'>Industry driven Mentorship</span> to
+              <span className='font-bold'>target job</span>. We then provide{' '}
+              <span className='font-bold'> Industry driven Mentorship</span> to
               the candidates in line with the targeted job
             </p>
             <p>
