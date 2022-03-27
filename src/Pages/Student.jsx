@@ -23,7 +23,7 @@ const Instagram = React.lazy(() => import('../Components/Instagram'))
 const Fees = React.lazy(() => import('../Components/Fees'))
 const Domain = React.lazy(() => import('../Components/Domain'))
 const StudentChorts = React.lazy(() => import('../Components/StudentChorts'))
-const Title = React.lazy(() => import('../Components/Title'))
+// const Title = React.lazy(() => import('../Components/Title'))
 
 const companies = [
   Target,

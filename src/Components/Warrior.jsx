@@ -93,7 +93,9 @@ const Warrior = () => {
           <div className='imageWrapper'>
             <img src={leftArrow} alt='' />
           </div>
-          <div>Mail us today at hello@coached.co.in </div>
+          <div className='warrior-mail-text'>
+            Mail us today at hello@coached.co.in{' '}
+          </div>
         </div>
       </div>
       <Questions />
