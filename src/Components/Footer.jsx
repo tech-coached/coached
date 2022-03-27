@@ -66,7 +66,7 @@ const Footer = () => {
               <span className='pl-4 pt-1 footer-social'>Twitter</span>
             </div>
           </a>
-          <a href='https://twitter.com/CoachEd_2020'>
+          <a href='https://www.instagram.com/coached.co.in/?utm_medium=copy_link'>
             <div className='flex justify-center items-center social-icons'>
               <img src={instaIcon} alt='' />
               <span className='pl-4 pt-1 footer-social'>Instagram</span>
