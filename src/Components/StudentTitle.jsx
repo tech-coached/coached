@@ -21,21 +21,27 @@ const StudentTitle = () => {
         className='absolute right-[-8rem] bottom-[-2rem] title-chair'
       />
       <div className='title-msg'>
-        <span className='p-1 text-[#ffffff] text-2xl font-bold'>
-          Welcome to the
-        </span>
-        <span className='one text-2xl font-bold'>CoachEd Kingdom!</span>
-        <div className='p-4 pl-0 flex justify-start'>
+        <div className='student-title-first'>
           <span className='p-1 text-[#ffffff] text-2xl font-bold'>
-            You are onto becoming a
+            Welcome to the
           </span>
-          <span className='two text-2xl font-bold'>CoachEd Warrior!</span>
+          <span className='one text-2xl font-bold'>CoachEd Kingdom!</span>
+        </div>
+        <div className='p-4 pl-0 flex justify-start'>
+          <div className='student-title-first'>
+            <span className='p-1 text-[#ffffff] text-2xl font-bold'>
+              You are onto becoming a
+            </span>
+            <span className='two text-2xl font-bold'>CoachEd Warrior!</span>
+          </div>
         </div>
       </div>
-      <div className='absolute bottom-[2rem] left-[2rem]'>
+      <div className='absolute bottom-[2rem] left-[2rem] student-mark-image'>
         <img src={student1} alt='' className='w-[70%]' />
       </div>
-      <Download />
+      <div className='student-download'>
+        <Download />
+      </div>
     </div>
   )
 }

@@ -37,6 +37,16 @@
   .stud-acad {
     right: 0;
   }
+
+  .student-download {
+    position: absolute;
+    bottom: 4rem;
+    width: 20rem;
+  }
+
+  .student-mark-image {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 640px) {
@@ -50,5 +60,22 @@
   }
   .stud-acad {
     right: 0;
+  }
+
+  .student-mark-image {
+    display: none;
+  }
+
+  .student-download {
+    position: absolute;
+    bottom: 4rem;
+    width: 20rem;
+  }
+
+  .student-title-first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
 }
