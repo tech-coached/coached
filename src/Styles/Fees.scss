@@ -1,18 +1,45 @@
-.fees-wrap{
- background: linear-gradient(102.76deg, #300273 0.46%, #7B61FF 102.41%);
- min-height: 356px;
+.fees-wrap {
+  background: linear-gradient(102.76deg, #300273 0.46%, #7b61ff 102.41%);
+  min-height: 356px;
 }
 
-.fee-course1{
- background: linear-gradient(94.29deg, #8A3CFC 0%, #FF9A60 100%);
+.fee-course1 {
+  background: linear-gradient(94.29deg, #8a3cfc 0%, #ff9a60 100%);
 }
 
-.fee-course2{
- background: linear-gradient(255.1deg, #15CD98 18.26%, #64EFC7 78.35%);
+.fee-course2 {
+  background: linear-gradient(255.1deg, #15cd98 18.26%, #64efc7 78.35%);
 }
 
 @media only screen and (max-width: 640px) {
- .fee-val{
-  grid-template-columns: repeat(1, minmax(0, 1fr));
- }
+  .fee-val {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  .fees-announce-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .fees-announce {
+    height: max-content;
+    .fees-speaker {
+      display: none;
+    }
+  }
+
+  .fees-coin {
+    right: -1rem;
+  }
+
+  .fees-coin-text {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 821px) {
+  .fees-speaker {
+    display: none;
+  }
 }

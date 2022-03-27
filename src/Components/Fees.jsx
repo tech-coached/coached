@@ -15,24 +15,23 @@ const Fees = () => {
           <span className='font-bold text-2xl text-[#ffffff]  py-4'>3500</span>
           <span className='text-[#ffffff] pt-2'>One Time Payment</span>
         </div>
-        <div className='col-span-1 h-[184px] bg-[#9E7F9B] rounded-[10px] flex justify-start items-start px-10 flex-col relative'>
+        <div className='col-span-1 h-[184px] bg-[#9E7F9B] rounded-[10px] flex justify-start items-start px-10 flex-col relative fees-coin-text'>
           <span className='font-bold text-2xl text-[#ffffff]  py-4'>
             Pay it once you get
           </span>
-          <span className='font-bold text-2xl text-[#ffffff]  '>
-            {' '}
+          <span className='font-bold text-2xl text-[#ffffff] '>
             placed via us
           </span>
           <img
             src={feeCoin}
             alt=''
-            className='absolute right-[1rem] bottom-[.5rem]'
+            className='absolute right-[1rem] bottom-[.5rem] fees-coin'
           />
         </div>
       </div>
       <span className='font-bold text-2xl text-[#ffffff]'>Cohort Showcase</span>
-      <div className='grid grid-cols-12 gap-6 py-10'>
-        <div className='col-span-6 h-[184px] fee-course1 rounded-[10px] p-4 relative'>
+      <div className='grid grid-cols-12 gap-6 py-10 fees-announce-two'>
+        <div className='col-span-6 h-[184px] fee-course1 rounded-[10px] p-4 relative fees-announce'>
           <span className='font-bold text-2xl text-[white]'>
             Software Engineering
           </span>
@@ -55,10 +54,10 @@ const Fees = () => {
           <img
             src={speaker1}
             alt=''
-            className='absolute right-[1rem] bottom-[0rem] z-50'
+            className='absolute right-[1rem] bottom-[0rem] z-50  fees-speaker'
           />
         </div>
-        <div className='col-span-6 h-[184px] fee-course2 rounded-[10px] p-4 relative'>
+        <div className='col-span-6 h-[184px] fee-course2 rounded-[10px] p-4 relative fees-announce'>
           <span className='font-bold text-2xl  text-[white]'>
             VLSI and Embedded Systems
           </span>
@@ -81,7 +80,7 @@ const Fees = () => {
           <img
             src={speaker2}
             alt=''
-            className='absolute right-[1rem] bottom-[0rem] z-50'
+            className='absolute right-[1rem] bottom-[0rem] z-50 fees-speaker'
           />
         </div>
       </div>
