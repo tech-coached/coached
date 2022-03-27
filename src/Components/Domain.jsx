@@ -160,10 +160,13 @@ const Domain = () => {
         </div> */}
       </div>
       <div className='student-process'>
-        <span className='text-3xl font-semibold mx-14 text-center pl-[0]'>
-          If you have that grit and determination to become the best,
-          <span className='text-3xl font-bold text-[red]'>Join us!</span>
-        </span>
+        <div className='domain-title-first'>
+          <span className='text-3xl font-semibold text-center pl-[0]'>
+            If you have that grit and determination to become the best,{' '}
+          </span>
+          <span className='text-3xl font-bold text-[red]'> Join us!</span>
+        </div>
+
         <img src={student8} alt='' className='stud-pocesss-main pt-10' />
         <img src={student9} alt='' className='stud-pocesss-sub pt-10' />
       </div>
