@@ -24,7 +24,7 @@ const companies = [
   },
   {
     name: 'Siddhant Gambhir ',
-    designation: 'Sr Specialist - Evaluation & Testing',
+    designation: 'Sr Specialist - E&T',
     company: company2,
     profile: mentor2,
   },
