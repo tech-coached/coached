@@ -9,6 +9,11 @@
   background: linear-gradient(93.4deg, #6069d6 5.1%, #272f98 100%);
 }
 
+.title-msg {
+  position: absolute;
+  top: 3rem;
+}
+
 @media only screen and (max-width: 821px) {
   .title {
     background: linear-gradient(93.4deg, #6069d6 5.1%, #272f98 100%);
@@ -45,6 +50,6 @@
 
   .title-msg {
     position: absolute;
-    top: 1rem;
+    top: 2rem;
   }
 }

@@ -1,9 +1,13 @@
+.stud-title {
+  min-height: 304px;
+}
+
 .about-title {
   // background: #15cd98;
   width: 1135px;
   height: 304px;
   border-radius: 10px;
-  background: linear-gradient(93.4deg, #FFD52E 5.1%, #D71E28 100%) !important;
+  background: linear-gradient(93.4deg, #ffd52e 5.1%, #d71e28 100%) !important;
 }
 
 .one {
@@ -22,7 +26,7 @@
 
 @media only screen and (max-width: 821px) {
   .about-title {
-    background: linear-gradient(93.4deg, #FFD52E 5.1%, #D71E28 100%);
+    background: linear-gradient(93.4deg, #ffd52e 5.1%, #d71e28 100%);
     width: 95%;
     height: 604px !important;
     border-radius: 10px;
@@ -30,21 +34,21 @@
     margin: auto;
     margin-top: 1rem;
   }
-  .stud-acad{
+  .stud-acad {
     right: 0;
   }
 }
 
 @media only screen and (max-width: 640px) {
   .about-title {
-    background: linear-gradient(93.4deg, #FFD52E 5.1%, #D71E28 100%);
+    background: linear-gradient(93.4deg, #ffd52e 5.1%, #d71e28 100%);
     width: 90%;
     height: 604px !important;
     border-radius: 10px;
     margin: auto;
     margin-top: 1rem;
   }
-  .stud-acad{
+  .stud-acad {
     right: 0;
   }
 }
