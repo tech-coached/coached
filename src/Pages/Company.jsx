@@ -35,7 +35,7 @@ const companies1 = [
 ]
 const slicksettings = {
   infinite: true,
-  slidesToShow: 4,
+  slidesToShow: 5,
   slidesToScroll: 1,
   autoplay: true,
   // autoplaySpeed: 3000000,

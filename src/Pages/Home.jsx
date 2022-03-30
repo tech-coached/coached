@@ -1,7 +1,7 @@
 import React, { Suspense } from 'react'
 import Target from '../Assets/target.svg'
 import company2 from '../Assets/company2.svg'
-import company3 from '../Assets/company3.png'
+import company3 from '../Assets/company3.svg'
 import company4 from '../Assets/company4.svg'
 import company5 from '../Assets/company5.svg'
 import company6 from '../Assets/company6.svg'
@@ -35,7 +35,7 @@ const companies = [
 ]
 const slicksettings = {
   infinite: true,
-  slidesToShow: 4,
+  slidesToShow: 5,
   slidesToScroll: 1,
   autoplay: true,
   autoplaySpeed: 3000,
