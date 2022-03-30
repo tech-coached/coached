@@ -5,13 +5,16 @@ import './index.css'
 import App from './App'
 import reportWebVitals from './reportWebVitals'
 import AppRoutes from './Routes'
+import { ParallaxProvider } from 'react-scroll-parallax'
 
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
-      <AppRoutes>
-        <App />
-      </AppRoutes>
+      <ParallaxProvider>
+        <AppRoutes>
+          <App />
+        </AppRoutes>
+      </ParallaxProvider>
     </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')

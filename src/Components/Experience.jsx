@@ -11,7 +11,7 @@ const Experience = () => {
     <>
       <div className='flex flex-col'>
         <span className=' text-3xl font-bold pl-14 pt-14'>Experience</span>
-        <span className=' text-3xl pl-14 pt-4'>
+        <span className=' text-3xl pl-14 pt-4 experience-title-text'>
           {' '}
           The CoachEd Power for Student/Company{' '}
         </span>

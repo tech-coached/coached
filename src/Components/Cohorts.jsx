@@ -10,13 +10,21 @@ import Donwload from './Download'
 const Cohorts = () => {
   return (
     <>
-      <span className='text-3xl font-bold m-14'>CoachEd Cohorts</span>
+      <span className='text-3xl font-bold m-14 coached-cohorts-text'>
+        CoachEd Cohorts
+      </span>
       <div className='pt-4 pb-2 px-14 mt-2 grid grid-cols-2 gap-4 text-[#090809] cohorts-wrapper'>
         <div>
           <div>
-            <span className='text-3xl font-bold text-[#15CD98]'>10x </span>{' '}
-            <span className='text-2xl font-bold '>your career in</span>{' '}
-            <span className='text-3xl font-bold text-[#FA8F8F]'>10 Weeks</span>
+            <span className='text-3xl font-bold text-[#15CD98]  coached-cohorts-text'>
+              10x{'  '}
+            </span>
+            <span className='text-2xl font-bold  coached-cohorts-text'>
+              your career in{' '}
+            </span>
+            <span className='text-3xl font-bold text-[#FA8F8F]  coached-cohorts-text'>
+              10 Weeks
+            </span>
           </div>
           <div className='grid grid-rows-2 grid-cols-2 gap-4 mt-10'>
             <div className='p-4'>

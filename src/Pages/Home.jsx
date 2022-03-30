@@ -1,4 +1,5 @@
 import React, { Suspense } from 'react'
+// import { Parallax } from 'react-scroll-parallax'
 import Target from '../Assets/target.svg'
 import company2 from '../Assets/company2.svg'
 import company3 from '../Assets/company3.svg'
@@ -35,7 +36,7 @@ const companies = [
 ]
 const slicksettings = {
   infinite: true,
-  slidesToShow: 5,
+  slidesToShow: 4,
   slidesToScroll: 1,
   autoplay: true,
   autoplaySpeed: 3000,
