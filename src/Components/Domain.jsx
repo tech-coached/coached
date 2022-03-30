@@ -88,9 +88,9 @@ const Domain = () => {
             </div>
             <div className='pt-4'>
               <span className='font-medium'>
-                Regular
-                <span className='font-bold'>1:1 mentorship</span>from Industry{' '}
-                <br />
+                Regular {`${' '}`}
+                <span className='font-bold'> 1:1 mentorship {`${' '}`}</span>
+                from Industry <br />
                 Chiefs
               </span>
             </div>
@@ -101,7 +101,7 @@ const Domain = () => {
             </div>
             <div>
               <span className='font-medium'>
-                Career support via our
+                Career support via our{`${' '}`}
                 <span className='font-bold'>
                   dedicated <br /> recruitment unit
                 </span>

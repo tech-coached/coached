@@ -58,9 +58,8 @@ const Tweets = () => {
         <div className='row-span-3 bg-[#ffffff] rounded-[10px] p-4'>
           <div>
             <p>
-              "CoachEd is a great platform to explore more about different
-              career opportunities and how to choose the best-suited one for
-              oneself. "
+              CoachEd is a great platform to explore more about different career
+              opportunities and how to choose the best-suited one for oneself.
             </p>
             {/* <p className='pt-4'>
               {' '}
@@ -83,11 +82,11 @@ const Tweets = () => {
         <div className='row-span-3 bg-[#ffffff] rounded-[10px] p-4'>
           <div>
             <p>
-              "During this pandemic, I had a lot of time and did not know how to
+              During this pandemic, I had a lot of time and did not know how to
               use it wisely. I attended a webinar conducted by CoachEd. After
               signing up on their platform, they connected me with a mentor in
               my field of interest. It is a good platform that guides you to
-              make better decisions concerning your career."
+              make better decisions concerning your career.
             </p>
             {/* <p className='pt-4'>
               {' '}
@@ -110,11 +109,11 @@ const Tweets = () => {
         <div className='row-span-3 bg-[#ffffff] rounded-[10px] p-4'>
           <div>
             <p>
-              "CoachEd has helped me in making a difference in my lifestyle and
+              CoachEd has helped me in making a difference in my lifestyle and
               helped me transform into a professional. Upon proper guidance, I
               improved my vocabulary, conversational skills & redefined my
               personality. I am positively sure that I will be utilizing all the
-              tips & tricks taught to me by the CoachEd Team."
+              tips & tricks taught to me by the CoachEd Team.
             </p>
             {/* <p className='pt-4'>
               {' '}

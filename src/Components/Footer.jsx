@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import logo from '../Assets/logo.svg'
 import leftArrow from '../Assets/leftArrow.svg'
 import linkedinIcon from '../Assets/linkedinIcon.svg'
@@ -15,10 +16,16 @@ const Footer = () => {
       <div className=' bg-[#E5E5E5] px-14 py-5 pb-1 pt-10 grid grid-cols-12 gap-1 footer-grid-wrap'>
         <div className='col-span-2 grid grid-rows-5'>
           <span className='font-bold'>Navigate</span>
-          <span>Home</span>
-          <span>Company</span>
-          <span>Student</span>
-          <span>Mentor</span>
+          <Link to='/'>
+            <span>Home</span>
+          </Link>
+          <Link to='/company'>
+            <span>Company</span>
+          </Link>
+          <Link to='/students'>
+            <span>Student</span>
+          </Link>
+          {/* <span>Mentor</span> */}
         </div>
         <div className='col-span-2 grid  grid-rows-5'>
           <span className='font-bold'>Support</span>

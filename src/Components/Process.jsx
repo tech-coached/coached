@@ -13,8 +13,8 @@ const Process = () => {
       <span className='text-3xl font-bold m-14'>Process</span>
       <div className='pt-10 pb-2 mt-5 grid grid-cols-2 gap-4 text-[#090809] processWrapper relative'>
         <div className='textWrapper'>
-          <span>
-            Step{' '}
+          <div>
+            <span style={{ paddingRight: '.5rem' }}>Step</span>
             <span
               style={{
                 padding: '.5rem 1rem',
@@ -24,7 +24,7 @@ const Process = () => {
             >
               1
             </span>
-          </span>
+          </div>
           <span className='text-3xl font-bold mt-4 mb-4'>
             Download the Android App
           </span>
@@ -51,8 +51,8 @@ const Process = () => {
       </div>
       <div className='pt-10 pb-2 mt-5 grid grid-cols-2 gap-4 text-[#090809] step-two '>
         <div className='textWrapper'>
-          <span>
-            Step{' '}
+          <div>
+            <span style={{ paddingRight: '.5rem' }}>Step</span>
             <span
               style={{
                 padding: '.5rem 1rem',
@@ -62,7 +62,7 @@ const Process = () => {
             >
               2
             </span>
-          </span>
+          </div>
           <span className='text-3xl  mt-4 mb-4 process-head process-title-responsive'>
             Join our exclusive cohorts and supercharge your{' '}
             <span className='text-3xl font-bold mt-4 mb-4 process-head'>

@@ -62,7 +62,9 @@ const Records = () => {
       <div className='pt-10 pb-2 px-14 grid grid-cols-4 gap-4 records-numbers'>
         <div className='flex justify-start items-start flex-col record-num'>
           <span className='text-[#BF0808] font-bold text-3xl pb-4'>1200+</span>{' '}
-          <span className=' font-bold text-2xl'>Enrolled Students</span>
+          <span className=' font-bold text-2xl higest-package'>
+            Enrolled Students
+          </span>
         </div>
         <div className='flex justify-start items-start flex-col record-num'>
           <span className='text-[#BF0808] font-bold text-3xl pb-4'>20LPA</span>{' '}

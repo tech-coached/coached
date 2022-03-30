@@ -6,9 +6,11 @@ import '../Styles/few-tweets.scss'
 const FewTweet = () => {
   return (
     <div className=' mt-6'>
-      <span className='text-3xl font-bold px-14 mt-6 few-tweet-title'>
-        Here's what they have to say
-      </span>
+      <div>
+        <span className='text-3xl font-bold px-14 mt-6 few-tweet-title'>
+          Here's what they have to say
+        </span>
+      </div>
       <div className='grid grid-cols-3 gap-6 px-14 py-4  mt-4 few-tweets-wrapper'>
         <div className='row-span-3 bg-[#ffffff] rounded-[10px] p-4'>
           <div>
@@ -57,9 +59,8 @@ const FewTweet = () => {
         <div className='row-span-3 bg-[#ffffff] rounded-[10px] p-4'>
           <div>
             <p>
-              "CoachEd is a great platform to explore more about different
-              career opportunities and how to choose the best-suited one for
-              oneself. "
+              CoachEd is a great platform to explore more about different career
+              opportunities and how to choose the best-suited one for oneself.
             </p>
             {/* <p className='pt-4'>
               {' '}

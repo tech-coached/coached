@@ -119,12 +119,40 @@
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
   .warrior-text {
-    padding-left: 1rem;
+    padding-left: 3rem;
     padding-right: 1rem;
     font-size: 1.5rem;
   }
 
   .warrior-mail-text {
     padding-top: 0.25rem;
+  }
+
+  .mail {
+    margin: auto;
+  }
+
+  .slick-slide {
+    div {
+      padding-right: 0.5rem;
+    }
+  }
+  .warrior-feature {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    .warrior-feature-title-wrap {
+      display: flex;
+      justify-items: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .warrior-feature-level1 {
+      text-align: center;
+    }
+  }
+
+  .warrior-industry-ready {
+    margin-bottom: 3rem;
   }
 }

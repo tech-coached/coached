@@ -46,7 +46,7 @@ const Introduction = () => {
             href='https://play.google.com/store/apps/details?id=co.edvin.iyclg'
             className='flex justify-start items-center'
           >
-            <div className='text-white'>FIND OUT MORE</div>
+            <div className='text-white'>DOWNLOAD THE APP</div>
           </a>
         </div>
         <div className='students mt-6 text-3xl'>

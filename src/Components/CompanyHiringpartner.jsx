@@ -87,11 +87,13 @@ const Companyhiringpartner = () => {
           rel='noreferrer'
           className=' z-[40]'
         >
-          <div className='mail col-span-2 w-[22rem] text-[#ffffff]'>
+          <div className='mail col-span-2 w-[22rem] text-[#ffffff] '>
             <div className='imageWrapper'>
               <img src={leftArrow} alt='' />
             </div>
-            <div>Mail us today at hello@coached.co.in </div>
+            <div className='mail-text-link'>
+              Mail us today at hello@coached.co.in{' '}
+            </div>
           </div>
         </a>
       </div>

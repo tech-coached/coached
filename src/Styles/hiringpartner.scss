@@ -70,57 +70,12 @@
   }
 }
 
-
-.step-two{
+.step-two {
   width: 92% !important;
 }
 
 @media only screen and (max-width: 821px) {
-.hiring-partner-foot{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin-left: 1rem;
-  margin-right: 1rem;
-  height: 140px;
-  .mail{
-    z-index: 999;
-    width: 90%;
-    margin:0
-  }
-  span{
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    padding-left: 0;
-    z-index: 999;
-  }
-}
-
-.step-two{
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-bottom: 3rem;
-  width: 90%;
-  span{
-    font-size: 1.5rem;
-  }
-  .hiring-partner-features-wrapper{
-    grid-template-columns: repeat(1, minmax(0, 1fr));
-    .step-two-steps{
-      width: 100%;
-      img{
-        width: 60%;
-        right:-1rem;
-        bottom: 3rem;
-      }
-    }
-  }
-}
-}
-
-@media only screen and (max-width: 640px) {
-  .hiring-partner-foot{
+  .hiring-partner-foot {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -128,12 +83,12 @@
     margin-left: 1rem;
     margin-right: 1rem;
     height: 140px;
-    .mail{
+    .mail {
       z-index: 999;
       width: 90%;
-      margin:0
+      margin: 0;
     }
-    span{
+    span {
       padding-top: 1rem;
       padding-bottom: 1rem;
       padding-left: 0;
@@ -141,29 +96,78 @@
     }
   }
 
-  .step-two{
+  .step-two {
     margin-left: 5%;
-  margin-right: 5%;
-  margin-bottom: 3rem;
-  width: 90%;
-    .textWrapper{
-      span{
+    margin-right: 5%;
+    margin-bottom: 3rem;
+    width: 90%;
+    span {
+      font-size: 1.5rem;
+    }
+    .hiring-partner-features-wrapper {
+      grid-template-columns: repeat(1, minmax(0, 1fr));
+      .step-two-steps {
+        width: 100%;
+        img {
+          width: 60%;
+          right: -1rem;
+          bottom: 3rem;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .hiring-partner-foot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    height: 140px;
+    .mail {
+      z-index: 999;
+      width: 80%;
+      margin: auto;
+    }
+
+    .mail-text-link {
+      padding-top: 0.25rem;
+      padding-bottom: 0.25rem;
+    }
+    span {
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      padding-left: 0;
+      z-index: 999;
+    }
+  }
+
+  .step-two {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 3rem;
+    width: 90%;
+    .textWrapper {
+      span {
         font-size: 1.5rem;
         margin-top: 0;
       }
-      .hiring-partner-title{
+      .hiring-partner-title {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
       }
-      .hiring-partner-features-wrapper{
+      .hiring-partner-features-wrapper {
         grid-template-columns: repeat(1, minmax(0, 1fr));
-        .step-two-steps{
+        .step-two-steps {
           width: 100%;
-          img{
+          img {
             width: 60%;
-            right:-1rem;
+            right: -1rem;
             bottom: 3rem;
           }
         }
