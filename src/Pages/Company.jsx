@@ -2,7 +2,7 @@ import React, { Suspense } from 'react'
 import Loader from '../Components/Loader'
 import Target from '../Assets/target.svg'
 import company2 from '../Assets/company2.svg'
-import company3 from '../Assets/company3.png'
+import company3 from '../Assets/company3.svg'
 import company4 from '../Assets/company4.svg'
 import company5 from '../Assets/company5.svg'
 import company6 from '../Assets/company6.svg'
@@ -40,6 +40,41 @@ const slicksettings = {
   autoplay: true,
   // autoplaySpeed: 3000000,
   dots: false,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        infinite: true,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        dots: false,
+      },
+    },
+    {
+      breakpoint: 821,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        infinite: true,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        dots: false,
+      },
+    },
+    {
+      breakpoint: 640,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        dots: false,
+      },
+    },
+  ],
 }
 
 const Company = () => {
