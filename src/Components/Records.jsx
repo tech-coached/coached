@@ -1,5 +1,8 @@
 import React from 'react'
 import bgImage from '../Assets/bg-records.svg'
+import recordDesign1 from '../Assets/record-design-1.svg'
+import recordDesign2 from '../Assets/record-design-2.svg'
+
 // import Target from '../Assets/target.svg'
 // import Mentor1 from '../Assets/mentor1.svg'
 import 'slick-carousel/slick/slick.css'
@@ -9,6 +12,7 @@ import '../Styles/record.scss'
 import company1 from '../Assets/company-logo1.svg'
 import company2 from '../Assets/company-logo2.svg'
 import company3 from '../Assets/company-logo3.svg'
+import recordDaimond from '../Assets/record-diamond.svg'
 // import company4 from '../Assets/company-logo4.svg'
 import mentor1 from '../Assets/mentor1.svg'
 import mentor2 from '../Assets/mentor2.svg'
@@ -93,30 +97,48 @@ const Records = () => {
         <span className='text-3xl font-bold absolute top-[5rem] left-[3.5rem] records-hello'>
           Say hello to our mentors and educators
         </span>
-        <div className='record px-14 py-20'>
-          <Slider {...settings}>
-            {companies.map((item, index) => {
-              return (
-                <div
-                  className='h-[235px] w-[492px] bg-[#FFFFFF] rounded-xl p-4 record-wrap'
-                  key={index}
-                >
-                  <div className=' m-4'>
-                    <img src={item.profile} alt='' className='rounded-full' />
-                  </div>
-                  <div className='flex justify-center items-start flex-col pl-4'>
-                    <span className='text-xl font-semibold py-2'>
-                      {item.name}
-                    </span>
-                    <span>{item.designation}</span>
-                    <div>
-                      <img src={item.company} alt='' />
+        <div className='flex justify-center items-center flex-col relative pt-6'>
+          <div className='flex justify-center items-center rounded-xl bg-[#FFEA97] w-[12rem] p-2 absolute top-[4rem] mentor-showcase'>
+            <img src={recordDaimond} alt='' />
+            <span className='pl-4'>Mentor Showcase</span>
+          </div>
+          <img
+            src={recordDesign1}
+            alt=''
+            className='absolute top-[2rem] right-[0rem] mentor-showcase'
+          />
+          <img
+            src={recordDesign2}
+            alt=''
+            className='absolute bottom-[0rem] left-[-7rem] mentor-showcase'
+          />
+          <div className='record px-14 py-10 relative z-[100]'>
+            <Slider {...settings}>
+              {companies.map((item, index) => {
+                return (
+                  <div
+                    className='h-[235px] w-[492px] bg-[#FFFFFF] rounded-xl p-4 record-wrap z-[40]'
+                    key={index}
+                  >
+                    <div className=' m-4'>
+                      <img src={item.profile} alt='' className='rounded-full' />
+                    </div>
+                    <div className='flex justify-center items-start flex-col pl-4'>
+                      <span className='text-xl font-semibold py-2'>
+                        {item.name}
+                      </span>
+                      <span>{item.designation}</span>
+                      <div>
+                        <img src={item.company} alt='' />
+                      </div>
                     </div>
                   </div>
-                </div>
-              )
-            })}
-          </Slider>
+                )
+              })}
+            </Slider>
+            <div className='h-[235px] w-[492px] bg-[#ffffff] rounded-xl p-4 record-wrap-1 absolute left-[1.5rem] top-[5rem] z-[-10]'></div>
+            <div className='h-[235px] w-[492px] bg-[#ffffff] rounded-xl p-4 record-wrap-2 absolute left-[0rem] top-[7rem] z-[-10]'></div>
+          </div>
         </div>
       </div>
     </div>

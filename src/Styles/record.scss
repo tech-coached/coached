@@ -15,6 +15,10 @@
     padding: 0 1rem;
   }
 
+  .mentor-showcase {
+    display: none;
+  }
+
   .record {
     padding-top: 3rem;
   }
@@ -75,6 +79,10 @@
     padding-top: 1rem;
   }
 
+  .mentor-showcase {
+    display: none;
+  }
+
   .bgImage {
     height: 500px;
     overflow: hidden;
@@ -88,6 +96,18 @@
     flex-wrap: wrap;
     width: 80% !important;
     padding-left: 0;
+  }
+
+  .records-hello {
+    text-align: center;
+    padding-top: 1rem;
+  }
+
+  .record-wrap-1 {
+    display: none;
+  }
+  .record-wrap-2 {
+    display: none;
   }
 
   .slick-slide {
