@@ -36,8 +36,15 @@ const Footer = () => {
         </div>
         <div className='col-span-2 grid  grid-rows-5'>
           <span className='font-bold'>Legal</span>
-          <span>Privacy policy</span>
-          <span>Terms of Use</span>
+          <Link to='/privacy'>
+            <span>Privacy policy</span>
+          </Link>
+          <Link to='/terms'>
+            <span>Terms of Use</span>
+          </Link>
+          <Link to='/manifesto'>
+            <span>Manifesto</span>
+          </Link>
         </div>
         <div className='col-span-4 grid  grid-rows-5 px-2'>
           <div className='row-span-2 p-4'>
