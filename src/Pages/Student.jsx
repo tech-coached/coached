@@ -96,7 +96,7 @@ const Student = () => {
           companies={companies}
           settings={{ ...slicksettings, rtl: true }}
         />
-        <Fees />
+//         <Fees />
         <FewTweet />
         <Instagram />
         <Questions />
