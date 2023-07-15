@@ -89,14 +89,14 @@ const Student = () => {
         <StudentTitle />
         {/* <Title /> */}
         <Domain />
-        {/*<StudentChorts />*/}
+        <StudentChorts />
         {/* <Mentor /> */}
         <CompaniesCarousel companies={companies} settings={slicksettings} />
         <CompaniesCarousel
           companies={companies}
           settings={{ ...slicksettings, rtl: true }}
         />
-//         <Fees />
+         {/*<Fees />*/}
         <FewTweet />
         <Instagram />
         <Questions />
