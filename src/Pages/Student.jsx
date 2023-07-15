@@ -89,7 +89,7 @@ const Student = () => {
         <StudentTitle />
         {/* <Title /> */}
         <Domain />
-        <StudentChorts />
+        {*<StudentChorts />*}
         {/* <Mentor /> */}
         <CompaniesCarousel companies={companies} settings={slicksettings} />
         <CompaniesCarousel
