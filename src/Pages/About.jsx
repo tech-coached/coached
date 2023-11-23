@@ -15,7 +15,7 @@ const About = () => {
         <Navbar />
         <AboutTitle />
         <AboutIntro />
-        <Founders />
+{/*         <Founders /> */}
         <Footer />
       </Suspense>
     </div>
