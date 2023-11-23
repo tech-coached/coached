@@ -29,7 +29,7 @@ const Founders = () => {
               className='absolute top-[30%] left-[40%] profileImage'
             />
           </div> */}
-          <div className='founder relative'>
+{/*           <div className='founder relative'>
             <img src={""} alt='' className='profile' />
             <img
               src={linkedin}
@@ -39,7 +39,7 @@ const Founders = () => {
           </div>
           <span className='font-bold py-2'>Shashikumar</span>
 {/*           <span>CEO</span> */}
-        </div>
+        </div> */}
         <div className='flex justify-start items-center flex-col'>
           <div className='founder relative'>
             <img
