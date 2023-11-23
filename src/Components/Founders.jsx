@@ -30,15 +30,15 @@ const Founders = () => {
             />
           </div> */}
           <div className='founder relative'>
-            <img src={founder1} alt='' className='profile' />
+            <img src={""} alt='' className='profile' />
             <img
               src={linkedin}
               alt=''
               className='absolute top-[30%] left-[40%] profileImage'
             />
           </div>
-          <span className='font-bold py-2'>Poornanand Kulkarni</span>
-          <span>CEO</span>
+          <span className='font-bold py-2'>Shashikumar</span>
+{/*           <span>CEO</span> */}
         </div>
         <div className='flex justify-start items-center flex-col'>
           <div className='founder relative'>
@@ -58,7 +58,7 @@ const Founders = () => {
             />
           </div>
           <span className='font-bold py-2'>Anikethan H V</span>
-          <span>COO</span>
+{/*           <span>COO</span> */}
         </div>
         <div
           className='flex justify-start items-center flex-col'
@@ -67,8 +67,8 @@ const Founders = () => {
               'https://www.linkedin.com/in/aishwarya-puranik/')
           }
         >
-          <div className='founder relative'>
-            <img src={founder3} alt='' className='profile' />
+{/*           <div className='founder relative'>
+            <img src={""} alt='' className='profile' />
             <img
               src={linkedin}
               alt=''
@@ -76,9 +76,9 @@ const Founders = () => {
             />
           </div>
           <span className='font-bold py-2'>Aishwarya Puranik </span>
-          <span>CTO</span>
-        </div>
-        <div
+{/*           <span>CTO</span> */}
+        </div> */}
+{/*         <div
           className='flex justify-start items-center flex-col'
           onClick={() =>
             (window.location.href =
@@ -103,7 +103,7 @@ const Founders = () => {
           </div>
           <span className='font-bold py-2'>Kaveri Bhadrannawar </span>
           <span>HR</span>
-        </div>
+        </div> */}
       </div>
       <span className='text-3xl font-bold py-6'>We are recognized by</span>
       <div className='flex justify-center items-center flex-wrap'>
